@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!StopPlayer && Input.GetKeyDown(KeyCode.E))
         {
-            RaycastHit2D col = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(0, 0), 1, LayerMask.GetMask("Interacable"));
+            RaycastHit2D col = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(0, 0), 1, LayerMask.GetMask("Interactable"));
             if (col.collider != null)
             {
                 Debug.Log("pas nul");

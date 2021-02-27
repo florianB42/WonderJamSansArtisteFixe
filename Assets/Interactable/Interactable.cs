@@ -20,7 +20,7 @@ public class Interactable : MonoBehaviour
         alreadyOpen = false;
     }
 
-    public virtual void interact(List<Item> invetaire) 
+    public virtual void interact(List<Item> inventaire) 
     {
         //popupSelectAction.GetComponent<PopupSelectAction>().showMenu(new List<Item>(), InteracibleItem.none);
         Debug.Log("Activé");

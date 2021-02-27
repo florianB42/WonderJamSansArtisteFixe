@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum ItemType
 {
-    KEY, GOLDKEY, CROWBAR, HAMMER
+    KEY = 1, GOLDKEY = 2, CROWBAR = 4, HAMMER = 8
 }
 
 public class Item
