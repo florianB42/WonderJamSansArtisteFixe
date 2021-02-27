@@ -8,16 +8,11 @@ public enum InteracibleItem
 public class Interactable : MonoBehaviour
 {
     protected InteracibleItem name;
+    public bool alreadyOpen  {get; protected set;}
 
     private void Start()
     {
-        
-    }
-
-    void OnDrawGizmosSelected()
-    {
-        
-
+        alreadyOpen = false;
     }
 
     public virtual void interact(List<Item> invetaire) 

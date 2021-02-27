@@ -9,7 +9,7 @@ public class HammerItem : Item
         name = ItemType.HAMMER;
         durability = 4;
         UseTime = 2;
-
+        useText = "Utiliser un marteau.";
         interactionList = new List<InteracibleItem> { 
             InteracibleItem.DOOR };
      

@@ -26,27 +26,31 @@ public class PopupSelectAction : MonoBehaviour
 
     public void showMenu(List<Item> listItem, Interactable interacibleItem)
     {
-        if (buttonAction == null)
+        while (listItem.Count != listButton.Count)
         {
-            //buttonAction = GameObject.Find("ButtonAction");
-            //panel = GameObject.Find("PanelAction");
-            
+            if (listItem.Count > listButton.Count)
+            {
+                GameObject button = (GameObject)Instantiate(buttonAction);
+                button.transform.SetParent(panel.transform, false);
+                listButton.Add(button);
+            }
+            else
+            {
+                GameObject button = listButton[listButton.Count - 1];
+                listButton.RemoveAt(listButton.Count - 1);
+                Destroy(button);
+            }
         }
-        Debug.Log(buttonAction);
-        Debug.Log("la");
-        for (int i = 0; i < listItem.Count - 1; ++i)
+        /*for (int i = 0; i < listItem.Count - 1; ++i)
         {
-            Debug.Log(i);
             GameObject button = (GameObject)Instantiate(buttonAction);
             button.transform.SetParent(panel.transform, false);
             listButton.Add(button);
-        }
-        Debug.Log("ici");
+        }*/
+
         for (int i = 0; i < listItem.Count && i < listButton.Count; ++i)
         {
-            Debug.Log(i);
             ButtonActionScript scriptBouton = listButton[i].GetComponent<ButtonActionScript>();
-            Debug.Log(listItem[i]);
             scriptBouton.SetText(listItem[i].useText);
             buttonAction.GetComponent<ButtonActionScript>().SetAction(listItem[i], interacibleItem, this);
         }

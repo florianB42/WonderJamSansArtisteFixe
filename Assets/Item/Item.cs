@@ -9,7 +9,7 @@ public enum ItemType
 
 public class Item
 {
-    protected ItemType name;
+    public ItemType name { get; protected set; }
 
     //list des objets avec lesquels cet item peut interagir
     protected List<InteracibleItem> interactionList;
@@ -18,7 +18,7 @@ public class Item
 
     protected float UseTime;
 
-    public string useText { get; private set; }
+    public string useText { get; protected set; }
 
 
     public Item()
@@ -26,7 +26,7 @@ public class Item
         useText = "Je suis un item lanbda.";
     }
 
-    public void use(Interactable interacibleItem)
+    public virtual void use(Interactable interacibleItem)
     {
         if(interacibleItem.GetType() == typeof(DoorInteractable))
         {
