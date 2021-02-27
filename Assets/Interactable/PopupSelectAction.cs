@@ -11,14 +11,12 @@ public class PopupSelectAction : MonoBehaviour
     public GameObject panel;
 
 
-    // Start is called before the first frame update
     void Start()
     {
         //listButton.Add(buttonAction);
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -52,7 +50,7 @@ public class PopupSelectAction : MonoBehaviour
         {
             ButtonActionScript scriptBouton = listButton[i].GetComponent<ButtonActionScript>();
             scriptBouton.SetText(listItem[i].useText);
-            buttonAction.GetComponent<ButtonActionScript>().SetAction(listItem[i], interacibleItem, this);
+            scriptBouton.SetAction(listItem[i], interacibleItem, this);
         }
 
         gameObject.SetActive(true);

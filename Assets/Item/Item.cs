@@ -11,26 +11,27 @@ public class Item
 {
     public ItemType name { get; protected set; }
 
-    //list des objets avec lesquels cet item peut interagir
-    protected List<InteracibleItem> interactionList;
+    public int durability;
 
-    protected int durability;
+    public float UseTime { get; protected set; }
 
-    protected float UseTime;
+    public GameManager gameManager;
 
     public string useText { get; protected set; }
 
 
     public Item()
     {
+        //this.gameManager = gameManager;
         useText = "Je suis un item lanbda.";
     }
 
     public virtual void use(Interactable interacibleItem)
     {
-        if(interacibleItem.GetType() == typeof(DoorInteractable))
+        /*if(interacibleItem.interactableName == InteracibleItem.DOOR)
         {
             Debug.Log("premier");
-        }
+        }*/
+        
     }
 }

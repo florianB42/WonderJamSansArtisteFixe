@@ -8,7 +8,9 @@ public class DoorInteractable : Interactable
 
     private void Awake()
     {
-        name = InteracibleItem.DOOR;
+        interactableName = InteracibleItem.DOOR;
+        timeToOpen = 3;
+        usableItem = new List<ItemType> { ItemType.KEY, ItemType.HAMMER };
     }
 
     private void Start()

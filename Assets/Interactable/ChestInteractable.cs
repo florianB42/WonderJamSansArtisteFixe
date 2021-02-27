@@ -6,15 +6,23 @@ public class ChestInteractable : Interactable
 {
     public GameObject popupInfo;
     public GameObject popupChoix;
+
+    private bool hasKey;
+    private bool hasHammer;
+
     private void Awake()
     {
-        name = InteracibleItem.CHEST;
+        interactableName = InteracibleItem.CHEST;
+        timeToOpen = 3;
+        usableItem = new List<ItemType> { ItemType.KEY, ItemType.CROWBAR, ItemType.HAMMER };
     }
 
     void Start()
     {
         popupInfo.SetActive(false);
         popupChoix.SetActive(false);
+        hasHammer = false;
+        hasKey = false;
     }
 
     // Update is called once per frame
@@ -23,18 +31,30 @@ public class ChestInteractable : Interactable
         
     }
 
-    public override void interact(List<Item> invetaire)
+    public override void interact(List<Item> inventaire)
     {
         if (!alreadyOpen)
         {
             alreadyOpen = true;
             List<Item> usable = new List<Item>();
-            foreach (Item item in invetaire)
+            foreach (Item item in inventaire)
             {
-                if (item.name == ItemType.KEY)
-                    usable.Add(item);
-                if (item.name == ItemType.CROWBAR)
-                    usable.Add(item);
+                if (usableItem.Contains(item.name))
+                {
+                    if (item.name == ItemType.KEY && !hasKey)
+                    {
+                        usable.Add(item);
+                        hasKey = true;
+                    }
+                        
+                    if (item.name == ItemType.HAMMER && !hasHammer)
+                    {
+                        usable.Add(item);
+                        hasHammer = true;
+                    }
+                                          
+                }
+                    
             }
             popupChoix.GetComponent<PopupSelectAction>().showMenu(usable, this);
         }

@@ -12,16 +12,13 @@ public class PlayerController : MonoBehaviour
     public Player player;
 
     private bool StopPlayer;
-    private bool canInteract;
 
-    private Interactable objectToInteract;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         StopPlayer = false;
-        canInteract = true;
     }
 
     public void FixedUpdate()
@@ -34,10 +31,6 @@ public class PlayerController : MonoBehaviour
 
             //Collider2D result = Physics2D.OverlapCircle(transform.position, 1.5f, 0, 21);
             
-            
-               
-
-
             UpdateAnimationAndMove();
         }
     }
@@ -75,16 +68,6 @@ public class PlayerController : MonoBehaviour
         else
         {
             animator.SetBool("moving", false);
-        }
-    }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("Collision Detecté");
-        if (collision.gameObject.layer == 21)
-        {
-            Debug.Log("interactable Detecté");
-            objectToInteract = collision.gameObject.GetComponent<Interactable>();
         }
     }
 

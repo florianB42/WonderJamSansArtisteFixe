@@ -7,16 +7,9 @@ public class Player : MonoBehaviour
     public List<Item> inventaire;
     void Start()
     {
-        inventaire = new List<Item>();
-        inventaire.Add(new KeyItem());
-        inventaire.Add(new KeyItem());
-        inventaire.Add(new KeyItem());
-        inventaire.Add(new KeyItem());
-        inventaire.Add(new KeyItem());
-        inventaire.Add(new HammerItem());
+        inventaire = new List<Item>();    
     }
 
-    // Update is called once per frame
     void Update()
     {
         

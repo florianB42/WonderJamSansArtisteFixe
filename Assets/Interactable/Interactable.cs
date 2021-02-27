@@ -7,8 +7,13 @@ public enum InteracibleItem
 }
 public class Interactable : MonoBehaviour
 {
-    protected InteracibleItem name;
+    public InteracibleItem interactableName { get; protected set; }
     public bool alreadyOpen  {get; protected set;}
+
+    //liste d'Items utilisable sur la cette objet
+    public List<ItemType> usableItem { get; protected set; }
+
+    public float timeToOpen{ get; protected set; }
 
     private void Start()
     {
