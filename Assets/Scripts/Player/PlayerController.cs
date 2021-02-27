@@ -10,18 +10,23 @@ public class PlayerController : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
+    private bool StopPlayer;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        StopPlayer = false;
     }
 
     public void FixedUpdate()
     {
-        change = Vector3.zero;
-        change.x = Input.GetAxisRaw("Horizontal");
-        change.y = Input.GetAxisRaw("Vertical");
-        UpdateAnimationAndMove();
+        if (!StopPlayer)
+        {
+            change = Vector3.zero;
+            change.x = Input.GetAxisRaw("Horizontal");
+            change.y = Input.GetAxisRaw("Vertical");
+            UpdateAnimationAndMove();
+        }
     }
 
     void MoveCharacter()
@@ -42,5 +47,15 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("moving", false);
         }
+    }
+
+    public void stopPlayer()
+    {
+        StopPlayer = true;
+    }
+
+    public void restartPlayer()
+    {
+        StopPlayer = false;
     }
 }

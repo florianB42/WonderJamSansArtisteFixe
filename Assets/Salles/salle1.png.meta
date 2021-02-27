@@ -1,7 +1,439 @@
 fileFormatVersion: 2
 guid: e5842494748967f418a607387744c647
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6890586888351203900
+    second: salle1_0
+  - first:
+      213: 8535640636773221715
+    second: salle1_1
+  - first:
+      213: -362229254439445534
+    second: salle1_2
+  - first:
+      213: -1083503206651961963
+    second: salle1_3
+  - first:
+      213: 4996771773518473948
+    second: salle1_4
+  - first:
+      213: -5659376121591866567
+    second: salle1_5
+  - first:
+      213: -7910209165724128735
+    second: salle1_6
+  - first:
+      213: -3224427109981031709
+    second: salle1_7
+  - first:
+      213: 6285981053889146385
+    second: salle1_8
+  - first:
+      213: 3370361673768551697
+    second: salle1_9
+  - first:
+      213: 928439589530837491
+    second: salle1_10
+  - first:
+      213: 173598156968099574
+    second: salle1_11
+  - first:
+      213: -7067066359719039277
+    second: salle1_12
+  - first:
+      213: -4307323720098598634
+    second: salle1_13
+  - first:
+      213: -3575194646331533080
+    second: salle1_14
+  - first:
+      213: -4951518957630496208
+    second: salle1_15
+  - first:
+      213: -1463619432753384442
+    second: salle1_16
+  - first:
+      213: 229144298385719615
+    second: salle1_17
+  - first:
+      213: 6057088561958363835
+    second: salle1_18
+  - first:
+      213: -118837291075999172
+    second: salle1_19
+  - first:
+      213: 2466834606508812055
+    second: salle1_20
+  - first:
+      213: -893799275310855441
+    second: salle1_21
+  - first:
+      213: -2413955214492894397
+    second: salle1_22
+  - first:
+      213: -2378106669535121425
+    second: salle1_23
+  - first:
+      213: 340962291896682296
+    second: salle1_24
+  - first:
+      213: 7465293551623920161
+    second: salle1_25
+  - first:
+      213: -4502102161724135049
+    second: salle1_26
+  - first:
+      213: 3429838640746626706
+    second: salle1_27
+  - first:
+      213: 4875572991358849346
+    second: salle1_28
+  - first:
+      213: -8747207811428516295
+    second: salle1_29
+  - first:
+      213: -7048501828159099190
+    second: salle1_30
+  - first:
+      213: 490408948986466139
+    second: salle1_31
+  - first:
+      213: 1471634318983012391
+    second: salle1_32
+  - first:
+      213: -2540040384968959083
+    second: salle1_33
+  - first:
+      213: -77737015888184990
+    second: salle1_34
+  - first:
+      213: 1653972146176833408
+    second: salle1_35
+  - first:
+      213: 594161162443098060
+    second: salle1_36
+  - first:
+      213: 837878990878785178
+    second: salle1_37
+  - first:
+      213: 3327675740928304723
+    second: salle1_38
+  - first:
+      213: -8929042908408023722
+    second: salle1_39
+  - first:
+      213: 6815673250766821273
+    second: salle1_40
+  - first:
+      213: -6500820505080262547
+    second: salle1_41
+  - first:
+      213: 5677620415410315014
+    second: salle1_42
+  - first:
+      213: 7025999122811072753
+    second: salle1_43
+  - first:
+      213: -7392562167294108585
+    second: salle1_44
+  - first:
+      213: -3749410555499214100
+    second: salle1_45
+  - first:
+      213: -607089374557793357
+    second: salle1_46
+  - first:
+      213: 8410620998583698404
+    second: salle1_47
+  - first:
+      213: 182794287844855936
+    second: salle1_48
+  - first:
+      213: 8348091074858878414
+    second: salle1_49
+  - first:
+      213: -2567068704394037412
+    second: salle1_50
+  - first:
+      213: -6180474857572442963
+    second: salle1_51
+  - first:
+      213: 6402605175181110865
+    second: salle1_52
+  - first:
+      213: 2909522716888637633
+    second: salle1_53
+  - first:
+      213: 4515956446368746532
+    second: salle1_54
+  - first:
+      213: 4423597114598509446
+    second: salle1_55
+  - first:
+      213: -761549356091997235
+    second: salle1_56
+  - first:
+      213: 5402869484242907909
+    second: salle1_57
+  - first:
+      213: 4978283842542981822
+    second: salle1_58
+  - first:
+      213: 8403703643834164426
+    second: salle1_59
+  - first:
+      213: -8180088655665313124
+    second: salle1_60
+  - first:
+      213: 7746830325360043882
+    second: salle1_61
+  - first:
+      213: 3754198916840478712
+    second: salle1_62
+  - first:
+      213: 1606334456343465845
+    second: salle1_63
+  - first:
+      213: 849468438572590818
+    second: salle1_64
+  - first:
+      213: 3353055170554152408
+    second: salle1_65
+  - first:
+      213: 8624911744343566961
+    second: salle1_66
+  - first:
+      213: -354609672780639168
+    second: salle1_67
+  - first:
+      213: -4812100294698356848
+    second: salle1_68
+  - first:
+      213: 989268981743383272
+    second: salle1_69
+  - first:
+      213: 3148708117661161397
+    second: salle1_70
+  - first:
+      213: -3689391674816780438
+    second: salle1_71
+  - first:
+      213: -99118576440879706
+    second: salle1_72
+  - first:
+      213: 5180186893687289979
+    second: salle1_73
+  - first:
+      213: -7504202184764560421
+    second: salle1_74
+  - first:
+      213: -427991361568858971
+    second: salle1_75
+  - first:
+      213: -2515510677759644229
+    second: salle1_76
+  - first:
+      213: -1636325380478652751
+    second: salle1_77
+  - first:
+      213: 1293370263423394971
+    second: salle1_78
+  - first:
+      213: 8899244917536768033
+    second: salle1_79
+  - first:
+      213: -6612661589445633756
+    second: salle1_80
+  - first:
+      213: 928052923732495496
+    second: salle1_81
+  - first:
+      213: 7163545342372706761
+    second: salle1_82
+  - first:
+      213: -6587916964147611026
+    second: salle1_83
+  - first:
+      213: 3213468468161173827
+    second: salle1_84
+  - first:
+      213: -2043279274384349580
+    second: salle1_85
+  - first:
+      213: -7568954142126985830
+    second: salle1_86
+  - first:
+      213: 4889559820297143610
+    second: salle1_87
+  - first:
+      213: 1208447014670771595
+    second: salle1_88
+  - first:
+      213: -8953451918177789366
+    second: salle1_89
+  - first:
+      213: 2104473624308704633
+    second: salle1_90
+  - first:
+      213: -8225039779425630773
+    second: salle1_91
+  - first:
+      213: -8494914191651958999
+    second: salle1_92
+  - first:
+      213: 7898028611912421155
+    second: salle1_93
+  - first:
+      213: 4335023114821336960
+    second: salle1_94
+  - first:
+      213: -7695152844602893191
+    second: salle1_95
+  - first:
+      213: 1901186502620259074
+    second: salle1_96
+  - first:
+      213: 398838360526887136
+    second: salle1_97
+  - first:
+      213: 2485104809622787702
+    second: salle1_98
+  - first:
+      213: 7468813010617781773
+    second: salle1_99
+  - first:
+      213: 6993231412560531800
+    second: salle1_100
+  - first:
+      213: -9167077041477379261
+    second: salle1_101
+  - first:
+      213: -7666642012972206110
+    second: salle1_102
+  - first:
+      213: -2339924539425931553
+    second: salle1_103
+  - first:
+      213: -3917207987538564856
+    second: salle1_104
+  - first:
+      213: -335858052117839660
+    second: salle1_105
+  - first:
+      213: 4875153189783847543
+    second: salle1_106
+  - first:
+      213: -5883891275159704633
+    second: salle1_107
+  - first:
+      213: 6716653264464922309
+    second: salle1_108
+  - first:
+      213: 5257071529677324974
+    second: salle1_109
+  - first:
+      213: -47182372888218474
+    second: salle1_110
+  - first:
+      213: 3295743632432415617
+    second: salle1_111
+  - first:
+      213: 4987855238745899574
+    second: salle1_112
+  - first:
+      213: -7515086307484943502
+    second: salle1_113
+  - first:
+      213: 7316956207671188604
+    second: salle1_114
+  - first:
+      213: 1985430780034395239
+    second: salle1_115
+  - first:
+      213: -6653684191987515695
+    second: salle1_116
+  - first:
+      213: -5965330564939227025
+    second: salle1_117
+  - first:
+      213: -1167641498402000807
+    second: salle1_118
+  - first:
+      213: 3297216788673975215
+    second: salle1_119
+  - first:
+      213: -2322858126677001499
+    second: salle1_120
+  - first:
+      213: -2227193339855815982
+    second: salle1_121
+  - first:
+      213: -421387679411956645
+    second: salle1_122
+  - first:
+      213: 3383481356454606932
+    second: salle1_123
+  - first:
+      213: 7042924654692151516
+    second: salle1_124
+  - first:
+      213: 112280302952055007
+    second: salle1_125
+  - first:
+      213: -7849270919365272945
+    second: salle1_126
+  - first:
+      213: -6663619107165360158
+    second: salle1_127
+  - first:
+      213: 3763257219749567206
+    second: salle1_128
+  - first:
+      213: 4244474811011566940
+    second: salle1_129
+  - first:
+      213: 4091529735116285194
+    second: salle1_130
+  - first:
+      213: 8080140198627247501
+    second: salle1_131
+  - first:
+      213: 6942765699571277478
+    second: salle1_132
+  - first:
+      213: -3680727782750007156
+    second: salle1_133
+  - first:
+      213: -2266900706526823318
+    second: salle1_134
+  - first:
+      213: 6263329435907043660
+    second: salle1_135
+  - first:
+      213: -82441278909206099
+    second: salle1_136
+  - first:
+      213: 4510803381590100659
+    second: salle1_137
+  - first:
+      213: 3699625969349305557
+    second: salle1_138
+  - first:
+      213: -3822209930674844505
+    second: salle1_139
+  - first:
+      213: 626824865014015402
+    second: salle1_140
+  - first:
+      213: -8666077115605913089
+    second: salle1_141
+  - first:
+      213: -9193622418802835083
+    second: salle1_142
+  - first:
+      213: 6192171224488519280
+    second: salle1_143
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +473,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +507,1701 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: salle1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32432e544840af50800000000000000
+      internalID: 6890586888351203900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355c1457fefa47670800000000000000
+      internalID: 8535640636773221715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebd1e9896a19faf0800000000000000
+      internalID: -362229254439445534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d538ef29f96f0f0800000000000000
+      internalID: -1083503206651961963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda64483479185540800000000000000
+      internalID: 4996771773518473948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b503ee66bd571b0800000000000000
+      internalID: -5659376121591866567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a69f18caa493290800000000000000
+      internalID: -7910209165724128735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2f07190a88043d0800000000000000
+      internalID: -3224427109981031709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ee5e5c67a4c3750800000000000000
+      internalID: 6285981053889146385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 630
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115c099d51ee5ce20800000000000000
+      internalID: 3370361673768551697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1256933ea72ec00800000000000000
+      internalID: 928439589530837491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fefebf9a9eb86200800000000000000
+      internalID: 173598156968099574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de65d8b69cbced90800000000000000
+      internalID: -7067066359719039277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611b8e2d5ef4934c0800000000000000
+      internalID: -4307323720098598634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d78e496b526ec0800000000000000
+      internalID: -3575194646331533080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03262d70ebba84bb0800000000000000
+      internalID: -4951518957630496208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604306861ed20bbe0800000000000000
+      internalID: -1463619432753384442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31469b76851e2300800000000000000
+      internalID: 229144298385719615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22c9c84f91f0450800000000000000
+      internalID: 6057088561958363835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 540
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a68570d1ec95ef0800000000000000
+      internalID: -118837291075999172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71729983105fb3220800000000000000
+      internalID: 2466834606508812055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea489e6b469893f0800000000000000
+      internalID: -893799275310855441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bf278a588ef7ed0800000000000000
+      internalID: -2413955214492894397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef2f5475944ffed0800000000000000
+      internalID: -2378106669535121425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8370e42e5675bb400800000000000000
+      internalID: 340962291896682296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ade80beec0a9760800000000000000
+      internalID: 7465293551623920161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7792ae3efe15581c0800000000000000
+      internalID: -4502102161724135049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e7c9a521c399f20800000000000000
+      internalID: 3429838640746626706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241de62cdc389a340800000000000000
+      internalID: 4875572991358849346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 450
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ef74717dcab9680800000000000000
+      internalID: -8747207811428516295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea2ed8ee0be2e90800000000000000
+      internalID: -7048501828159099190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fc20f37584ec600800000000000000
+      internalID: 490408948986466139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720a146bd9b4c6410800000000000000
+      internalID: 1471634318983012391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b57c24ab6ffbcd0800000000000000
+      internalID: -2540040384968959083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269f51e8892dbeef0800000000000000
+      internalID: -77737015888184990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087b24167e614f610800000000000000
+      internalID: 1653972146176833408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc701c2ed62ee3800800000000000000
+      internalID: 594161162443098060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eb710c08eb0ab00800000000000000
+      internalID: 837878990878785178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35667b1a4774e2e20800000000000000
+      internalID: 3327675740928304723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 360
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6557e1c68caa51480800000000000000
+      internalID: -8929042908408023722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9979619e5b2269e50800000000000000
+      internalID: 6815673250766821273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609d16813278c5a0800000000000000
+      internalID: -6500820505080262547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f990ebfa5face40800000000000000
+      internalID: 5677620415410315014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f03c531afc518160800000000000000
+      internalID: 7025999122811072753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c517650e7586990800000000000000
+      internalID: -7392562167294108585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea8e5a07fa67fbc0800000000000000
+      internalID: -3749410555499214100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3919a2e6f2397f0800000000000000
+      internalID: -607089374557793357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3c501ac3788b470800000000000000
+      internalID: 8410620998583698404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08096f1bf6a698200800000000000000
+      internalID: 182794287844855936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_49
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 270
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5829d3a906ad370800000000000000
+      internalID: 8348091074858878414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5732904d90ff5cd0800000000000000
+      internalID: -2567068704394037412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5923dcda8a3aa0800000000000000
+      internalID: -6180474857572442963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e6fbffb7f9ad850800000000000000
+      internalID: 6402605175181110865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0a316ee73b06820800000000000000
+      internalID: 2909522716888637633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_54
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cc1fe1676ebae30800000000000000
+      internalID: 4515956446368746532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b46157326c36d30800000000000000
+      internalID: 4423597114598509446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_56
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3853f35ee6e65f0800000000000000
+      internalID: -761549356091997235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_57
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b8189b29dafa40800000000000000
+      internalID: 5402869484242907909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb257d957ca661540800000000000000
+      internalID: 4978283842542981822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_59
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 180
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4246870f3ff9470800000000000000
+      internalID: 8403703643834164426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9acdd725bc7a7e80800000000000000
+      internalID: -8180088655665313124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672f4ee225428b60800000000000000
+      internalID: 7746830325360043882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7de663608991430800000000000000
+      internalID: 3754198916840478712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f82d46da8da4610800000000000000
+      internalID: 1606334456343465845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e666015b0be9cb00800000000000000
+      internalID: 849468438572590818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5ca2199e1788e20800000000000000
+      internalID: 3353055170554152408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a61b4e887d1b770800000000000000
+      internalID: 8624911744343566961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0441ef3a16c241bf0800000000000000
+      internalID: -354609672780639168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fa3fe074cf73db0800000000000000
+      internalID: -4812100294698356848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 90
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e27024c5e69abd00800000000000000
+      internalID: 989268981743383272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b71596b95572bb20800000000000000
+      internalID: 3148708117661161397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672349a1d5acccc0800000000000000
+      internalID: -3689391674816780438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5599c0e2cdf9ef0800000000000000
+      internalID: -99118576440879706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_73
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b787d54b888b3e740800000000000000
+      internalID: 5180186893687289979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbe5663fd7bbd790800000000000000
+      internalID: -7504202184764560421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac90cecf187f0af0800000000000000
+      internalID: -427991361568858971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd2f67cd5c171dd0800000000000000
+      internalID: -2515510677759644229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_77
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be2d9f6cba9a49e0800000000000000
+      internalID: -1636325380478652751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_78
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94a76ae669f2f110800000000000000
+      internalID: 1293370263423394971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salle1_79
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120cafe2a18708b70800000000000000
+      internalID: 8899244917536768033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
