@@ -11,7 +11,7 @@ public class SliderController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        slider = GameObject.Find("ResistanceBar").GetComponent<Slider>();
+        slider = GetComponent<Slider>();
         slider.maxValue = maxValue;
         slider.value = maxValue;
     }
