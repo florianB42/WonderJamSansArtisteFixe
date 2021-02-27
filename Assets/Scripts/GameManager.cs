@@ -5,7 +5,9 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
-    public Player player;
+    public GameObject playerObject;
+    private PlayerController playerController;
+    private Player player;
     public AIMonster Reaper;
     private static GameManager _instance;
 
@@ -18,6 +20,9 @@ public class GameManager : MonoBehaviour
     private bool InteractTimerON;
     private Interactable InteractWith;
     private Item itemInUse;
+
+    public SliderController timeSlider;
+    public SliderController resistanceSider;
 
     public static GameManager Instance
     {
@@ -43,6 +48,12 @@ public class GameManager : MonoBehaviour
         InteractTimerON = false;
         InteractionTimer = 0;
 
+        timeSlider.maxValue = 10;
+        resistanceSider.maxValue = 1;
+
+        player = playerObject.GetComponent<Player>();
+        playerController = playerObject.GetComponent<PlayerController>();
+
         addItemInPlayerInventory();
     }
 
@@ -53,10 +64,14 @@ public class GameManager : MonoBehaviour
         if (PlayerTurn)
         {          
             PlayerTimer -= Time.deltaTime;
+            timeSlider.SetValue(PlayerTimer);
+
+            resistanceSider.SetValue(player.resistance);
+
             if (PlayerTimer < 0)
             {
                 Debug.Log("Tour du joueur fini");
-                player.GetComponentInChildren<PlayerController>().stopPlayer();
+                playerController.stopPlayer();
                 Reaper.restartMonster();
                 ReaperTimer = Timer;
                 PlayerTurn = !PlayerTurn;
@@ -64,7 +79,7 @@ public class GameManager : MonoBehaviour
 
             if(InteractTimerON)
             {
-                player.GetComponentInChildren<PlayerController>().stopPlayer();
+                playerController.stopPlayer();
                 InteractionTimer -= Time.deltaTime;
                 if(InteractionTimer < 0)
                 {
@@ -73,7 +88,7 @@ public class GameManager : MonoBehaviour
                 }
             }
             else
-                player.GetComponentInChildren<PlayerController>().restartPlayer();
+                playerController.restartPlayer();
 
         }
         else
@@ -82,7 +97,7 @@ public class GameManager : MonoBehaviour
             if (ReaperTimer < 0)
             {
                 Debug.Log("Tour du Reaper fini");
-                player.GetComponentInChildren<PlayerController>().restartPlayer();
+                playerController.restartPlayer();
                 Reaper.stopMonster();
                 PlayerTimer = Timer;
                 PlayerTurn = !PlayerTurn;   

@@ -22,14 +22,14 @@ public class SliderController : MonoBehaviour
 
     }
 
-    public void SetMaxValue(int value)
+    public void SetMaxValue(float value)
     {
         maxValue = value;
         slider.maxValue = value;
         slider.value = value;
     }
 
-    public void SetValue(int value)
+    public void SetValue(float value)
     {
         slider.value = value;
     }
