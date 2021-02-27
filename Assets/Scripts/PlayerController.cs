@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         StopPlayer = false;
-        canInteract = false;
+        canInteract = true;
     }
 
     public void FixedUpdate()
@@ -33,14 +33,28 @@ public class PlayerController : MonoBehaviour
             change.y = Input.GetAxisRaw("Vertical");
 
             //Collider2D result = Physics2D.OverlapCircle(transform.position, 1.5f, 0, 21);
-            if (canInteract && Input.GetKeyDown(KeyCode.E))
-            {
-                objectToInteract.interact(player.inventaire);
-            }
-                
+            
+            
+               
 
 
             UpdateAnimationAndMove();
+        }
+    }
+
+    public void Update()
+    {
+        if (!StopPlayer && Input.GetKeyDown(KeyCode.E))
+        {
+            RaycastHit2D col = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(0, 0), 1, LayerMask.GetMask("Interacable"));
+            if (col.collider != null)
+            {
+                Debug.Log("pas nul");
+                Debug.Log(col.collider);
+                col.collider.gameObject.GetComponent<Interactable>().interact(player.inventaire);
+
+            }
+            Debug.Log("vérif");
         }
     }
 

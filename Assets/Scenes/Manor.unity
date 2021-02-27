@@ -9512,6 +9512,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.4364571
       objectReference: {fileID: 0}
+    - target: {fileID: 4993052020704917765, guid: 9f9dd5e62ec1dd742b5ab1929c8ab36a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 922367218}
     - target: {fileID: 4993052020704917767, guid: 9f9dd5e62ec1dd742b5ab1929c8ab36a, type: 3}
       propertyPath: m_Name
       value: Player
@@ -10509,7 +10513,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.842687
+  m_Radius: 0.5
 --- !u!1 &1097688047
 GameObject:
   m_ObjectHideFlags: 0
@@ -10523,7 +10527,7 @@ GameObject:
   - component: {fileID: 1097688049}
   - component: {fileID: 1097688051}
   - component: {fileID: 1097688052}
-  m_Layer: 21
+  m_Layer: 7
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}

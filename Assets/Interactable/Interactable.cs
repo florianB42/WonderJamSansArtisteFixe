@@ -7,8 +7,6 @@ public enum InteracibleItem
 }
 public class Interactable : MonoBehaviour
 {
-    public float radius = 1f;
-    public Vector3 relativePosision = new Vector3(0, 0, 0);
     protected InteracibleItem name;
 
     private void Start()
@@ -18,8 +16,7 @@ public class Interactable : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position + relativePosision, radius);
+        
 
     }
 
