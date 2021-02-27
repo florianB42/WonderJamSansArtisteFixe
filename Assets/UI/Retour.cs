@@ -19,7 +19,6 @@ public class Retour : MonoBehaviour
 
     public void RetourM()
     {
-        Debug.Log("Coucou");
         SceneManager.LoadScene("StartMenu", LoadSceneMode.Single);
     }
 }

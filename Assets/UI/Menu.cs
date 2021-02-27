@@ -19,7 +19,6 @@ public class Menu : MonoBehaviour
 
     public void Quitter()
     {
-        Debug.Log("coucou");
         Application.Quit();
     }
 
@@ -31,5 +30,10 @@ public class Menu : MonoBehaviour
     public void Credits()
     {
         SceneManager.LoadScene("Credits", LoadSceneMode.Single);
+    }
+
+    public void Aide()
+    {
+        SceneManager.LoadScene("Aide", LoadSceneMode.Single);
     }
 }
