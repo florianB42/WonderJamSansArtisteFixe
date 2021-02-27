@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
             change.y = Input.GetAxisRaw("Vertical");
 
             //Collider2D result = Physics2D.OverlapCircle(transform.position, 1.5f, 0, 21);
-            
+
             UpdateAnimationAndMove();
         }
     }
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
                 col.collider.gameObject.GetComponent<Interactable>().interact(player.inventaire);
 
             }
-            Debug.Log("vérif");
+            Debug.Log("vï¿½rif");
         }
     }
 
