@@ -9504,6 +9504,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4993052020704917763, guid: 9f9dd5e62ec1dd742b5ab1929c8ab36a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.49123383
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993052020704917763, guid: 9f9dd5e62ec1dd742b5ab1929c8ab36a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.4364571
+      objectReference: {fileID: 0}
     - target: {fileID: 4993052020704917767, guid: 9f9dd5e62ec1dd742b5ab1929c8ab36a, type: 3}
       propertyPath: m_Name
       value: Player
@@ -10440,6 +10448,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4993052020704917761, guid: 9f9dd5e62ec1dd742b5ab1929c8ab36a, type: 3}
   m_PrefabInstance: {fileID: 726620867}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1062828094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062828096}
+  - component: {fileID: 1062828095}
+  - component: {fileID: 1062828097}
+  m_Layer: 21
+  m_Name: Chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1062828095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062828094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa75c920e24b754993140c7ee02d1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1
+  relativePosision: {x: 0, y: 0, z: 0}
+--- !u!4 &1062828096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062828094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.506, y: 0.415, z: -19.82302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1062828097
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062828094}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.842687
 --- !u!1 &1097688047
 GameObject:
   m_ObjectHideFlags: 0
@@ -81705,6 +81775,10 @@ PrefabInstance:
     - target: {fileID: 1977235243147020324, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_Name
       value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977235243147020324, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1977235243147020325, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_AgentTypeID

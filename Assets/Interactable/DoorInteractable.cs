@@ -6,6 +6,11 @@ public class DoorInteractable : Interactable
 {
     public GameObject popupSelectAction;
 
+    private void Awake()
+    {
+        name = InteracibleItem.DOOR;
+    }
+
     private void Start()
     {
         popupSelectAction.SetActive(false);
@@ -16,7 +21,6 @@ public class DoorInteractable : Interactable
         List<Item> usableItem = new List<Item>();
         usableItem.Add(new Item());
         popupSelectAction.GetComponent<PopupSelectAction>().showMenu(usableItem, this);
-
     }
 
     public void PassDoor()

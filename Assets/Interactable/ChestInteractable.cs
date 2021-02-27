@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class ChestInteractable : Interactable
 {
-    public List<Item> inventaire;
+    private void Awake()
+    {
+        name = InteracibleItem.CHEST;
+    }
+
     void Start()
     {
-        inventaire = new List<Item>();
-        inventaire.Add(new KeyItem());
+        
     }
 
     // Update is called once per frame

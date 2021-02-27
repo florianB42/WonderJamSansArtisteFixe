@@ -3,14 +3,13 @@ using System.Collections.Generic;
 
 public enum InteracibleItem
 {
-    none,
-    Coffre,
-    porte,
+    NOTHING, CHEST, DOOR
 }
 public class Interactable : MonoBehaviour
 {
-    public float radius = 3f;
+    public float radius = 1f;
     public Vector3 relativePosision = new Vector3(0, 0, 0);
+    protected InteracibleItem name;
 
     private void Start()
     {
@@ -27,6 +26,6 @@ public class Interactable : MonoBehaviour
     public virtual void interact(List<Item> invetaire) 
     {
         //popupSelectAction.GetComponent<PopupSelectAction>().showMenu(new List<Item>(), InteracibleItem.none);
-
+        Debug.Log("Activé");
     }
 }
