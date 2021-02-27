@@ -1039,6 +1039,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1977235243147020322, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1808537058}
     - target: {fileID: 1977235243147020324, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_Name
       value: Monster
@@ -1049,11 +1053,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1977235243147020334, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.13
+      value: -6.694
       objectReference: {fileID: 0}
     - target: {fileID: 1977235243147020334, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.97
+      value: 2.194
       objectReference: {fileID: 0}
     - target: {fileID: 1977235243147020334, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8250,6 +8254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1808537058}
   - component: {fileID: 1808537057}
+  - component: {fileID: 1808537059}
   m_Layer: 20
   m_Name: PlayerSimu
   m_TagString: Untagged
@@ -8322,3 +8327,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1808537059
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808537056}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
