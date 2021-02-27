@@ -8,24 +8,33 @@ public class AIMonster : MonoBehaviour
     public Transform player;
     private NavMeshAgent agent;
     private Animator animator;
-
+    private bool StopMonster;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        StopMonster = true;
     }
 
     void Update()
     {
-        agent.destination = player.position;
+        if (!StopMonster)
+        {
+            agent.destination = player.position;
+        }
        // transform.LookAt(playerTransform);
     }
 
-    public void stopEnnemy()
+    public void stopMonster()
     {
-        agent.destination = transform.position;
+        StopMonster = true;
+    }
+
+    public void restartMonster()
+    {
+        StopMonster = false;
     }
 
     public void EnnemyFollowing()

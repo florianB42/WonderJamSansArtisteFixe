@@ -6,7 +6,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public Player player;
+    public AIMonster Reaper;
     private static GameManager _instance;
+
     private float PlayerTimer;
     private float ReaperTimer;
     private static float Timer;
@@ -44,10 +46,13 @@ public class GameManager : MonoBehaviour
         // possibilite de gerer les input ici
         if (PlayerTurn)
         {
+            
             PlayerTimer -= Time.deltaTime;
             if (PlayerTimer < 0)
             {
                 Debug.Log("Tour du joueur fini");
+                player.GetComponentInChildren<PlayerController>().stopPlayer();
+                Reaper.restartMonster();
                 ReaperTimer = Timer;
                 PlayerTurn = !PlayerTurn;
             }
@@ -58,6 +63,8 @@ public class GameManager : MonoBehaviour
             if (ReaperTimer < 0)
             {
                 Debug.Log("Tour du Reaper fini");
+                player.GetComponentInChildren<PlayerController>().restartPlayer();
+                Reaper.stopMonster();
                 PlayerTimer = Timer;
                 PlayerTurn = !PlayerTurn;
             }
