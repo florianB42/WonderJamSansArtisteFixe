@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
     {
         // possibilite de gerer les input ici
         if (PlayerTurn)
-        {
+        {          
             PlayerTimer -= Time.deltaTime;
             timeSlider.SetValue(PlayerTimer);
 
@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
                 playerController.restartPlayer();
                 Reaper.stopMonster();
                 PlayerTimer = Timer;
-                PlayerTurn = !PlayerTurn;
+                PlayerTurn = !PlayerTurn;   
             }
         }
     }
@@ -144,7 +144,7 @@ public class GameManager : MonoBehaviour
         //else if (random < 0.6)
         //new KeyItem(this);
         if(itemToAdd != null)
-            Debug.Log("J'ai trouvï¿½" + itemToAdd.name);
+            Debug.Log("J'ai trouvé" + itemToAdd.name);
 
         return null;
     }
