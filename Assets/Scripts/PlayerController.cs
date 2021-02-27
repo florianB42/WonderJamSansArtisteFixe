@@ -9,19 +9,46 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector3 change;
     private Animator animator;
+    public Player player;
+
+    private bool StopPlayer;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        StopPlayer = false;
     }
 
     public void FixedUpdate()
     {
-        change = Vector3.zero;
-        change.x = Input.GetAxisRaw("Horizontal");
-        change.y = Input.GetAxisRaw("Vertical");
-        UpdateAnimationAndMove();
+        if (!StopPlayer)
+        {
+            change = Vector3.zero;
+            change.x = Input.GetAxisRaw("Horizontal");
+            change.y = Input.GetAxisRaw("Vertical");
+
+            //Collider2D result = Physics2D.OverlapCircle(transform.position, 1.5f, 0, 21);
+            
+            UpdateAnimationAndMove();
+        }
+    }
+
+    public void Update()
+    {
+        if (!StopPlayer && Input.GetKeyDown(KeyCode.E))
+        {
+            RaycastHit2D col = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(0, 0), 1, LayerMask.GetMask("Interactable"));
+            if (col.collider != null)
+            {
+                Debug.Log("pas nul");
+                Debug.Log(col.collider);
+                col.collider.gameObject.GetComponent<Interactable>().interact(player.inventaire);
+
+            }
+            Debug.Log("vérif");
+        }
     }
 
     void MoveCharacter()
@@ -42,5 +69,15 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("moving", false);
         }
+    }
+
+    public void stopPlayer()
+    {
+        StopPlayer = true;
+    }
+
+    public void restartPlayer()
+    {
+        StopPlayer = false;
     }
 }
