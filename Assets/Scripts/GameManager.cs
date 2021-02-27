@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     private float PlayerTimer;
     private float ReaperTimer;
     private static float Timer;
-    private bool PlayerTurn; 
+    private bool PlayerTurn;
     private GameManager()
     {
         
