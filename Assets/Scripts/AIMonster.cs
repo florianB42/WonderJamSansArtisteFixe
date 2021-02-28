@@ -33,6 +33,7 @@ public class AIMonster : MonoBehaviour
     public void stopMonster()
     {
         StopMonster = true;
+        agent.destination = transform.position;
     }
 
     public void restartMonster()

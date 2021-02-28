@@ -62,6 +62,15 @@ public class PlayerController : MonoBehaviour
                 gameObject.GetComponent<PersoIteractable>().interact(player.inventaire);
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.O))
+        {
+            player.GetComponent<ResistanceComponent>().PlusResistance(10);
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            player.GetComponent<ResistanceComponent>().MinusResistance(10);
+        }
     }
 
     public void resetInteraction()
