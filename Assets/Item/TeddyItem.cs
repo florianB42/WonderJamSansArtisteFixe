@@ -8,9 +8,9 @@ public class TeddyItem : Item
     {
         this.gameManager = gameManager;
         name = ItemType.TEDDY;
-        durability = 4;
-        UseTime = 2;
-        useText = "Calîn";
+        durability = 1;
+        UseTime = 3;
+        useText = "Ourson";
         nameString = "un Ourson";
     }
 
