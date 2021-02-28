@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
     public Light2D globalLight;
     public bool lightingMatch;
 
+    private GameManager()
+    {
+
+    }
+
     public static GameManager Instance
     {
         get { return _instance; }
@@ -280,4 +285,12 @@ public class GameManager : MonoBehaviour
         player.inventaire.Add(new TeddyItem(this));
         player.inventaire.Add(new HandItem(this));
     }
+
+    public void Pause(bool paused)
+    {
+
+
+    }
+
+
 }

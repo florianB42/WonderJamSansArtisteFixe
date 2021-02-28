@@ -643,7 +643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6160643673168282011, guid: 30d65b1d1086fa249b16559dde5c8d46, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6160643673168282012, guid: 30d65b1d1086fa249b16559dde5c8d46, type: 3}
       propertyPath: m_RootOrder
@@ -13932,7 +13932,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cd58259cf94206a429f963a3e53f35ba, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
