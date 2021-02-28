@@ -307,7 +307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260.76, y: -43}
+  m_AnchoredPosition: {x: -252, y: -21.585}
   m_SizeDelta: {x: 150.7808, y: 43.1703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &812336437
@@ -386,7 +386,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284.58, y: 107}
+  m_AnchoredPosition: {x: -284.58, y: 133.79}
   m_SizeDelta: {x: 198.4194, y: 46.1766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &958995020
@@ -467,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 265, y: -19.242}
+  m_AnchoredPosition: {x: 281, y: 19.242}
   m_SizeDelta: {x: 163.1418, y: 38.4833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208737186
@@ -838,8 +838,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -207, y: 34.066}
-  m_SizeDelta: {x: 353.5855, y: 68.1323}
+  m_AnchoredPosition: {x: -205.98, y: 57.395}
+  m_SizeDelta: {x: 355.6292, y: 106.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052285935
 MonoBehaviour:
@@ -874,7 +874,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Croix directionnelle : WASD/fl\xE8ches\nAction : E"
+  m_Text: "Croix directionnelle : WASD/fl\xE8ches\nAction : E\nMenu : espace"
 --- !u!222 &2052285936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -996,8 +996,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118, y: -146}
-  m_SizeDelta: {x: 497.0571, y: 140.3}
+  m_AnchoredPosition: {x: -31.983692, y: -137.4}
+  m_SizeDelta: {x: 703.6123, y: 175.1926}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2135880251
 MonoBehaviour:
@@ -1034,7 +1034,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Vous \xEAtes pi\xE9g\xE9s dans un manoir. Votre but : vous \xE9chapper,
     et vite. \nCar la Mort vous a dans le collimateur et ne cessera de vous poursuivre
-    tant que vous resterez dans ce manoir."
+    tant que vous resterez dans ce manoir.\nLe joueur et la Mort jouent chacun leur
+    tour. Une fois votre temps \xE9coul\xE9, la Mort se rapprochera de vous. Vous
+    ne pouvez sortir sans la cl\xE9 du manoir."
 --- !u!222 &2135880252
 CanvasRenderer:
   m_ObjectHideFlags: 0
