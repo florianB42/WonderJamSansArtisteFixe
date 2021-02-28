@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -438,7 +438,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -651,6 +651,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5222928779196317574, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
   m_PrefabInstance: {fileID: 1411694921}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &231560878 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6925360108804453169, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+  m_PrefabInstance: {fileID: 743966514}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d7d1b49e2cec64f87fa1a124c71d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &251637127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,7 +1472,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -1634,7 +1645,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -9544,11 +9555,6 @@ PrefabInstance:
       objectReference: {fileID: 211894705}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d4b99f1dca88844a85a2a1d348e72cd, type: 3}
---- !u!1 &480755596 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6409624276059673271, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
-  m_PrefabInstance: {fileID: 743966514}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &489456664
 GameObject:
   m_ObjectHideFlags: 0
@@ -9695,7 +9701,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -9840,7 +9846,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -11177,7 +11183,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -11262,7 +11268,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -11511,6 +11517,30 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6925360108804453182, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_Color.b
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_Color.g
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 05b58877d7fd7664388be857d5146406, type: 3}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7402146100253324388, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -11543,7 +11573,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -13010,7 +13040,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -13084,7 +13114,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -13158,7 +13188,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -13297,7 +13327,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -13495,7 +13525,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -13622,7 +13652,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -13715,6 +13745,7 @@ MonoBehaviour:
   Reaper: {fileID: 640282951}
   timeSlider: {fileID: 31569300}
   resistanceSider: {fileID: 694154278}
+  dialogManager: {fileID: 231560878}
 --- !u!4 &1183108200
 Transform:
   m_ObjectHideFlags: 0
@@ -13960,7 +13991,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -72415,7 +72446,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -72555,7 +72586,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -72859,7 +72890,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -72933,7 +72964,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -73007,7 +73038,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -73081,7 +73112,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -73155,7 +73186,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -73304,7 +73335,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -73378,7 +73409,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -73452,7 +73483,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -74024,7 +74055,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -74217,7 +74248,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 
@@ -74853,7 +74884,7 @@ PrefabInstance:
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupInfo
       value: 
-      objectReference: {fileID: 480755596}
+      objectReference: {fileID: 0}
     - target: {fileID: 2200000101810467871, guid: b5f531749611ea641bde0908699962e3, type: 3}
       propertyPath: popupChoix
       value: 

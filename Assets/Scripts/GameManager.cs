@@ -34,8 +34,6 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dialogManager.StartDialogue(new HammerItem(this)); 
-
         if (_instance != null && _instance != this)
         {
             Destroy(this.gameObject);
@@ -44,7 +42,7 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
-        Timer = 10;
+        Timer = 20;
         PlayerTimer = Timer;
         ReaperTimer = 0;
         PlayerTurn = true;
@@ -60,6 +58,7 @@ public class GameManager : MonoBehaviour
 
         addItemInPlayerInventory();
 
+        dialogManager.hide();
     }
 
     // Update is called once per frame
@@ -146,7 +145,7 @@ public class GameManager : MonoBehaviour
         float random = UnityEngine.Random.Range(0f, 1f);
         Item itemToAdd = null;
 
-        if (random < 0.2)
+        if (random < 1.2)
             itemToAdd = new KeyItem(this);
         else if (random < 0.4)
             itemToAdd = new HammerItem(this);
@@ -155,7 +154,7 @@ public class GameManager : MonoBehaviour
         if(itemToAdd != null)
             Debug.Log("J'ai trouv�" + itemToAdd.name);
 
-        return null;
+        return itemToAdd;
     }
 
     private void UpdateInventory()

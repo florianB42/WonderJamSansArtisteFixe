@@ -26,7 +26,8 @@ public class PopupItemFund : MonoBehaviour
     {
         StopAllCoroutines();
 
-        switch(item.name)
+        gameObject.SetActive(true);
+        switch (item.name)
         {
             case ItemType.HAMMER:
                 spriteLoot.sprite = hammerSprite;
@@ -56,6 +57,7 @@ public class PopupItemFund : MonoBehaviour
     public void hide()
     {
         spriteLoot.sprite = null;
+        StopAllCoroutines();
         gameObject.SetActive(false);
     }
 }
