@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
 
     private bool StopPlayer;
 
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -86,6 +85,7 @@ public class PlayerController : MonoBehaviour
     public void stopPlayer()
     {
         StopPlayer = true;
+        animator.SetBool("moving", false);
     }
 
     public void restartPlayer()
