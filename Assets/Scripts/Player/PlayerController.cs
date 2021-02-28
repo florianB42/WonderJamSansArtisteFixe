@@ -52,13 +52,18 @@ public class PlayerController : MonoBehaviour
                 RaycastHit2D col = Physics2D.CircleCast(transform.position, 0.75f, new Vector2(0, 0), 1, LayerMask.GetMask("Interactable"));
                 if (col.collider != null)
                 {
-                    canInteracte = false;
-                    col.collider.gameObject.GetComponent<Interactable>().interact(player.inventaire);
+                    if (!col.collider.gameObject.GetComponent<Interactable>().alreadyOpen)
+                    {
+                        canInteracte = false;
+                        stopPlayer();
+                        col.collider.gameObject.GetComponent<Interactable>().interact(player.inventaire);
+                    }
                 }
             }
             else if (!StopPlayer && Input.GetKeyDown(KeyCode.Space))
             {
                 canInteracte = false;
+                stopPlayer();
                 gameObject.GetComponent<PersoIteractable>().interact(player.inventaire);
             }
         }
@@ -77,6 +82,7 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Reset Interaction");
         canInteracte = true;
+        restartPlayer();
     }
 
     void MoveCharacter()
