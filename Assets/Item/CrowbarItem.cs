@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HammerItem : Item
+public class CrowbarItem : Item
 {
-    public HammerItem(GameManager gameManager)
+    public CrowbarItem(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        name = ItemType.HAMMER;
+        name = ItemType.CROWBAR;
         durability = 4;
         UseTime = 2;
-        useText = "Défoncer";
-        nameString = "un Marteau";
+        useText = "Défoncer au marteau";
+        nameString = "un Pied-de-Biche";
     }
 
     public override void use(Interactable interacibleItem)

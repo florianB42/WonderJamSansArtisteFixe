@@ -452,11 +452,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276094121303758755, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 950550853592773720, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 950550853740072066, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_IsActive
@@ -1019,6 +1019,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 568787035}
     m_Modifications:
+    - target: {fileID: 5864944785716836581, guid: 2d7ae3fdd3043ed438792d5a2e6fac1d, type: 3}
+      propertyPath: headSprite
+      value: 
+      objectReference: {fileID: 5669215685383749445, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+    - target: {fileID: 5864944785716836581, guid: 2d7ae3fdd3043ed438792d5a2e6fac1d, type: 3}
+      propertyPath: matchSprite
+      value: 
+      objectReference: {fileID: -5025134799647490705, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+    - target: {fileID: 5864944785716836581, guid: 2d7ae3fdd3043ed438792d5a2e6fac1d, type: 3}
+      propertyPath: teddySprite
+      value: 
+      objectReference: {fileID: -2014673322687799104, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+    - target: {fileID: 5864944785716836581, guid: 2d7ae3fdd3043ed438792d5a2e6fac1d, type: 3}
+      propertyPath: spiderSprite
+      value: 
+      objectReference: {fileID: -3677921497093605210, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+    - target: {fileID: 5864944785716836581, guid: 2d7ae3fdd3043ed438792d5a2e6fac1d, type: 3}
+      propertyPath: crowbarSprite
+      value: 
+      objectReference: {fileID: -2014673322687799104, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
     - target: {fileID: 5864944785716836586, guid: 2d7ae3fdd3043ed438792d5a2e6fac1d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

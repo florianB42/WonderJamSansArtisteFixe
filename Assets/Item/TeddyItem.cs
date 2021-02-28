@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HammerItem : Item
+public class TeddyItem : Item
 {
-    public HammerItem(GameManager gameManager)
+    public TeddyItem(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        name = ItemType.HAMMER;
+        name = ItemType.TEDDY;
         durability = 4;
         UseTime = 2;
-        useText = "Défoncer";
-        nameString = "un Marteau";
+        useText = "Calîn";
+        nameString = "un Ourson";
     }
 
     public override void use(Interactable interacibleItem)
@@ -19,3 +19,4 @@ public class HammerItem : Item
         gameManager.LaunchTimerInteraction(this, interacibleItem);
     }
 }
+

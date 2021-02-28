@@ -8,9 +8,15 @@ public class PopupItemFund : MonoBehaviour
 
     public Text textUI;
     public Image spriteLoot;
+
     public Sprite hammerSprite;
     public Sprite keySprite;
     public Sprite goldkeySprite;
+    public Sprite crowbarSprite;
+    public Sprite headSprite;
+    public Sprite spiderSprite;
+    public Sprite teddySprite;
+    public Sprite matchSprite;
 
     void Start()
     {
