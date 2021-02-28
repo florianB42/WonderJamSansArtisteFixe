@@ -11769,7 +11769,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -70396,8 +70396,16 @@ PrefabInstance:
       value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 1977235243147020325, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
+      propertyPath: m_Speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977235243147020325, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_AgentTypeID
       value: -1372625422
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977235243147020325, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
+      propertyPath: m_Acceleration
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1977235243147020334, guid: 5b0f639f4ebf01c49abcfed19311fba8, type: 3}
       propertyPath: m_RootOrder
