@@ -225,7 +225,7 @@ public class GameManager : MonoBehaviour
     {
       float random = UnityEngine.Random.Range(0f, 1f);
       Item itemToAdd = null;
-      int multiplicateur = 2;
+      int multiplicateur = 0;
 
       if (chestOpened > 5)
           multiplicateur = 2;
