@@ -36,4 +36,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Aide", LoadSceneMode.Single);
     }
+
+    public void Objets()
+    {
+        SceneManager.LoadScene("Items", LoadSceneMode.Single);
+    }
 }
