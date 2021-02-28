@@ -5,7 +5,6 @@ using UnityEngine;
 public class DoorInteractable : Interactable
 {
     public GameObject popupSelectAction;
-    private uint maskCanUseThis = uint.MaxValue - (uint) ItemType.KEY.GetHashCode() - (uint) ItemType.HAMMER.GetHashCode();
 
     private void Awake()
     {
@@ -19,34 +18,27 @@ public class DoorInteractable : Interactable
         popupSelectAction.SetActive(false);
     }
 
+    public override void valideOpenning()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
+        gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+    } 
+
     public override void interact(List<Item> inventaire)
     {
         if (!alreadyOpen)
         {
+            maskCanUseThis = (uint)ItemType.KEY + (uint)ItemType.HAMMER;
             alreadyOpen = true;
             List<Item> usable = new List<Item>();
             foreach (Item item in inventaire)
             {
-                if ((maskCanUseThis & (uint)item.GetType().GetHashCode()) != 0)
+
+                if ((maskCanUseThis & ((uint)item.name)) != 0)
                 {
                     usable.Add(item);
-                    maskCanUseThis += (uint)item.GetType().GetHashCode();
+                    maskCanUseThis -= (uint)item.name;
                 }
-                /*if (usableItem.Contains(item.name))
-                {
-                    if (item.name == ItemType.KEY && !hasKey)
-                    {
-                        usable.Add(item);
-                        hasKey = true;
-                    }
-
-                    if (item.name == ItemType.HAMMER && !hasHammer)
-                    {
-                        usable.Add(item);
-                        hasHammer = true;
-                    }
-
-                }*/
 
             }
             popupSelectAction.GetComponent<PopupSelectAction>().showMenu(usable, this);

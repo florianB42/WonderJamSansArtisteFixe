@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public enum InteracibleItem
+public enum InteracibleItem : uint
 {
     NOTHING, CHEST, DOOR
 }
@@ -15,6 +15,9 @@ public class Interactable : MonoBehaviour
 
     public float timeToOpen{ get; protected set; }
 
+
+    protected uint maskCanUseThis = 0;
+
     private void Start()
     {
         alreadyOpen = false;
@@ -24,5 +27,9 @@ public class Interactable : MonoBehaviour
     {
         //popupSelectAction.GetComponent<PopupSelectAction>().showMenu(new List<Item>(), InteracibleItem.none);
         Debug.Log("Activé");
+    }
+
+    public virtual void valideOpenning()
+    { 
     }
 }
