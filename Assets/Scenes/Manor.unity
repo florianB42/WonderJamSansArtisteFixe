@@ -11519,24 +11519,40 @@ PrefabInstance:
       objectReference: {fileID: 519420031}
     - target: {fileID: 6925360108804453182, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1
+      value: -67
       objectReference: {fileID: 0}
     - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_Color.b
-      value: 0.08235294
+      value: 0.06862799
       objectReference: {fileID: 0}
     - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_Color.g
-      value: 0.08235294
+      value: 0.06862799
       objectReference: {fileID: 0}
     - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_Color.r
-      value: 0.4627451
+      value: 0.817
       objectReference: {fileID: 0}
     - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 05b58877d7fd7664388be857d5146406, type: 3}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6925360109013762959, guid: bbe7a96d927548a4a99fca72251e0f65, type: 3}
       propertyPath: m_FontData.m_VerticalOverflow
       value: 1
