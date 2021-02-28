@@ -1067,6 +1067,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 211894705}
+    - target: {fileID: 4205898010705822082, guid: c9a29c2cf441b3c43805f7394d3381f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4205898010705822083, guid: c9a29c2cf441b3c43805f7394d3381f6, type: 3}
       propertyPath: m_Name
       value: DoorTriggerLeftRight (4)
@@ -1115,8 +1119,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4205898010705822082, guid: c9a29c2cf441b3c43805f7394d3381f6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c9a29c2cf441b3c43805f7394d3381f6, type: 3}
+--- !u!1 &338476677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4205898010705822083, guid: c9a29c2cf441b3c43805f7394d3381f6, type: 3}
+  m_PrefabInstance: {fileID: 338476676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &338476678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338476677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66108c39bf73684a8c7d9267b217131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 211894705}
+  cam: {fileID: 519420031}
 --- !u!1001 &364942537
 PrefabInstance:
   m_ObjectHideFlags: 0
