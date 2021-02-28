@@ -11,6 +11,8 @@ TagManager:
   - 
   - Water
   - UI
+  - Ground
+  - Collisions
   - 
   - 
   - 
@@ -23,11 +25,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Interactable
+  - CamCollider
   - 
   - 
   - 
