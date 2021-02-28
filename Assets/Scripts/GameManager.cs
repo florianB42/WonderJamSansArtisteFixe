@@ -36,6 +36,10 @@ public class GameManager : MonoBehaviour
     public Light2D globalLight;
     public bool lightingMatch;
 
+    public AudioSource audioSourceTete;
+    public AudioSource audioSourceGoldKey;
+    public AudioSource audioSourceDoor;
+
     private GameManager()
     {
 
@@ -204,6 +208,10 @@ public class GameManager : MonoBehaviour
                         break;
                 }
                 break;
+            case InteracibleItem.DOOR:
+                audioSourceDoor.Play();
+                break;
+
         }
         InteractionBar.SetActive(false);
     }
@@ -217,7 +225,7 @@ public class GameManager : MonoBehaviour
     {
       float random = UnityEngine.Random.Range(0f, 1f);
       Item itemToAdd = null;
-      int multiplicateur = 0;
+      int multiplicateur = 2;
 
       if (chestOpened > 5)
           multiplicateur = 2;
@@ -235,11 +243,13 @@ public class GameManager : MonoBehaviour
         {
             itemToAdd = new GoldKeyItem(this);
             playerGotKeyGold = true;
+            audioSourceGoldKey.Play();
         }
         else if (random < 0.2)
         {
             itemToAdd = new HeadItem(this);
             player.GetComponent<ResistanceComponent>().MinusResistance(30);
+            audioSourceTete.Play();
         }       
         else if (random < 0.3)
         {
@@ -279,10 +289,8 @@ public class GameManager : MonoBehaviour
         player.inventaire.Add(new KeyItem(this));
         player.inventaire.Add(new KeyItem(this));
         player.inventaire.Add(new KeyItem(this));
-        player.inventaire.Add(new KeyItem(this));
         player.inventaire.Add(new HammerItem(this));
         player.inventaire.Add(new MatchItem(this));
-        player.inventaire.Add(new TeddyItem(this));
         player.inventaire.Add(new HandItem(this));
     }
 
