@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class AIMonster : MonoBehaviour
 {
     public Transform player;
+    private int X;
     private NavMeshAgent agent;
     private Animator animator;
     private bool StopMonster;
@@ -21,24 +22,39 @@ public class AIMonster : MonoBehaviour
         StopMonster = true;
     }
 
-    void Update()
+    public void FixedUpdate()
     {
+
         if (!StopMonster)
         {
             agent.destination = player.position;
+            int oldX = X;
+            float diffX = transform.position.x - player.position.x;
+            X = (diffX > 0 ? -1 : (diffX < 0 ? 1 : 0));
+
+            UpdateAnimation();
         }
-       // transform.LookAt(playerTransform);
+    }
+
+    void UpdateAnimation()
+    {
+        if (X != 0)
+        {
+            animator.SetFloat("moveX", X);
+        }
     }
 
     public void stopMonster()
     {
         StopMonster = true;
+        animator.SetBool("moving", false);
         agent.destination = transform.position;
     }
 
     public void restartMonster()
     {
         StopMonster = false;
+        animator.SetBool("moving", true);
         turns++;
         if (turns >= 5)
         {
@@ -57,11 +73,10 @@ public class AIMonster : MonoBehaviour
         Debug.Log("Collision detected");
         if (collision.gameObject.layer == 20)
         {
+            agent.destination = transform.position;
             animator.SetBool("PlayerInRange", true);
             //TODO appel de la fonction GameOver et mort du joueur
             StartCoroutine(UserDie());
-            
-            
         }
     }
 
