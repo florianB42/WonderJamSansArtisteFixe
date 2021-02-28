@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MatchItem : Item
+public class HandItem : Item
 {
-    public MatchItem(GameManager gameManager)
+    public HandItem(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        name = ItemType.MATCH;
-        durability = 1;
-        UseTime = 0;
-        useText = "Allumette";
-        nameString = "une Allumette";
+        name = ItemType.HAND;
+        durability = 99;
+        UseTime = 5;
+        useText = "Crocheter";
+        nameString = "des mains";
     }
 
     public override void use(Interactable interacibleItem)

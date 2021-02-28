@@ -8,9 +8,9 @@ public class CrowbarItem : Item
     {
         this.gameManager = gameManager;
         name = ItemType.CROWBAR;
-        durability = 4;
+        durability = 3;
         UseTime = 2;
-        useText = "Défoncer au marteau";
+        useText = "Pied-De_Biche";
         nameString = "un Pied-de-Biche";
     }
 

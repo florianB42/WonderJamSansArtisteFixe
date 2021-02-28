@@ -34,7 +34,7 @@ public class ChestInteractable : Interactable
     {
         if (!alreadyOpen)
         {
-            maskCanUseThis = (uint)ItemType.KEY + (uint)ItemType.CROWBAR;
+            maskCanUseThis = (uint)ItemType.KEY + (uint)ItemType.CROWBAR + (uint)ItemType.HAND;
             alreadyOpen = true;
             List<Item> usable = new List<Item>();
             foreach (Item item in inventaire)

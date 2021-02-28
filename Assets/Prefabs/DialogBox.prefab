@@ -209,3 +209,8 @@ MonoBehaviour:
   hammerSprite: {fileID: -5088252183109277869, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
   keySprite: {fileID: 5070389660370673436, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
   goldkeySprite: {fileID: -1156086242867365297, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+  crowbarSprite: {fileID: 4024876506626242266, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+  headSprite: {fileID: 5669215685383749445, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+  spiderSprite: {fileID: -3677921497093605210, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+  teddySprite: {fileID: -2014673322687799104, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}
+  matchSprite: {fileID: -5025134799647490705, guid: 001d679bd01ef2a48ae85d2c35205aa6, type: 3}

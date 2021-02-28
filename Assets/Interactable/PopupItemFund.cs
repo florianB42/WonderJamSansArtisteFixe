@@ -38,6 +38,21 @@ public class PopupItemFund : MonoBehaviour
             case ItemType.GOLDKEY:
                 spriteLoot.sprite = goldkeySprite;
                 break;
+            case ItemType.CROWBAR:
+                spriteLoot.sprite = crowbarSprite;
+                break;
+            case ItemType.HEAD:
+                spriteLoot.sprite = headSprite;
+                break;
+            case ItemType.SPIDER:
+                spriteLoot.sprite = spiderSprite;
+                break;
+            case ItemType.MATCH:
+                spriteLoot.sprite = matchSprite;
+                break;
+            case ItemType.TEDDY:
+                spriteLoot.sprite = teddySprite;
+                break;
         }
         StartCoroutine(TypeSentence("Vous avez trouvé "+item.nameString));
         Invoke("hide", 4);
