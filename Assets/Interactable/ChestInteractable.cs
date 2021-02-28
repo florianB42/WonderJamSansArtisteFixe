@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ChestInteractable : Interactable
 {
-    public GameObject popupInfo;
     public GameObject popupChoix;
 
     private bool hasKey;
@@ -20,7 +19,6 @@ public class ChestInteractable : Interactable
 
     void Start()
     {
-        popupInfo.SetActive(false);
         popupChoix.SetActive(false);
         hasHammer = false;
         hasKey = false;

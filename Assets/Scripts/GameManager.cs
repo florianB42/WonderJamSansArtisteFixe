@@ -52,13 +52,14 @@ public class GameManager : MonoBehaviour
         InteractTimerON = false;
         InteractionTimer = 0;
 
-        timeSlider.SetMaxValue( 10);
+        timeSlider.SetMaxValue(10);
         resistanceSider.SetMaxValue(1);
 
         player = playerObject.GetComponent<Player>();
         playerController = playerObject.GetComponent<PlayerController>();
 
         addItemInPlayerInventory();
+
     }
 
     // Update is called once per frame
@@ -120,6 +121,7 @@ public class GameManager : MonoBehaviour
 
     private void ResultInteraction()
     {
+        InteractWith.valideOpenning();
         switch (InteractWith.interactableName)
         {
             case InteracibleItem.CHEST:
