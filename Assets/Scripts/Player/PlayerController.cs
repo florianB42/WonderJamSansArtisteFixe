@@ -5,12 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    public GameObject flashlight;
 
     private Rigidbody2D rb;
     private Vector3 change;
     private Animator animator;
 
     private bool StopPlayer;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!StopPlayer)
         {
+            Vector3 oldChange = change;
             change = Vector3.zero;
             change.x = Input.GetAxisRaw("Horizontal");
             change.y = Input.GetAxisRaw("Vertical");
