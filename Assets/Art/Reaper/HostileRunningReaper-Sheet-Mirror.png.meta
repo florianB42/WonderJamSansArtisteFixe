@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: bf971f41483216d498f27238e63c20ab
+guid: 891f1565aa33a7e44a1ffb8b8e139abc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5023387812421436800
-    second: HostileRunningReaper-Sheet_0
+      213: -3952871772460655065
+    second: HostileRunningReaper-Sheet-Mirror_0
   - first:
-      213: -8029059034905824488
-    second: HostileRunningReaper-Sheet_1
+      213: 3457870833408075642
+    second: HostileRunningReaper-Sheet-Mirror_1
   - first:
-      213: 4635744298797487965
-    second: HostileRunningReaper-Sheet_2
+      213: -1669492173709628060
+    second: HostileRunningReaper-Sheet-Mirror_2
   - first:
-      213: -1508443379604712921
-    second: HostileRunningReaper-Sheet_3
+      213: -7624804838147331593
+    second: HostileRunningReaper-Sheet-Mirror_3
   - first:
-      213: -6192042612502608195
-    second: HostileRunningReaper-Sheet_4
+      213: 8969306422099795972
+    second: HostileRunningReaper-Sheet-Mirror_4
   - first:
-      213: 5502321154860944451
-    second: HostileRunningReaper-Sheet_5
+      213: -3499663206188949361
+    second: HostileRunningReaper-Sheet-Mirror_5
   - first:
-      213: 935257630748668783
-    second: HostileRunningReaper-Sheet_6
+      213: 855750362198737615
+    second: HostileRunningReaper-Sheet-Mirror_6
   - first:
-      213: 4675483650800254426
-    second: HostileRunningReaper-Sheet_7
+      213: -8960739307917364471
+    second: HostileRunningReaper-Sheet-Mirror_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_0
+      name: HostileRunningReaper-Sheet-Mirror_0
       rect:
         serializedVersion: 2
         x: 14
         y: 8
         width: 28
-        height: 33
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,19 +141,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0850860b998a6b540800000000000000
-      internalID: 5023387812421436800
+      spriteID: 72e50dfe0149429c0800000000000000
+      internalID: -3952871772460655065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_1
+      name: HostileRunningReaper-Sheet-Mirror_1
       rect:
         serializedVersion: 2
         x: 62
         y: 8
-        width: 28
+        width: 29
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8133cc7f85d039090800000000000000
-      internalID: -8029059034905824488
+      spriteID: a77e870d333dcff20800000000000000
+      internalID: 3457870833408075642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_2
+      name: HostileRunningReaper-Sheet-Mirror_2
       rect:
         serializedVersion: 2
         x: 110
         y: 8
-        width: 28
-        height: 31
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,19 +183,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d57dd57e0e8755040800000000000000
-      internalID: 4635744298797487965
+      spriteID: 46d2ebe96b5c4d8e0800000000000000
+      internalID: -1669492173709628060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_3
+      name: HostileRunningReaper-Sheet-Mirror_3
       rect:
         serializedVersion: 2
         x: 158
         y: 8
         width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f96c8cc5604f2690800000000000000
+      internalID: -7624804838147331593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HostileRunningReaper-Sheet-Mirror_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 8
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,17 +225,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7221fd20dbee01be0800000000000000
-      internalID: -1508443379604712921
+      spriteID: 40063e26ba0697c70800000000000000
+      internalID: 8969306422099795972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_4
+      name: HostileRunningReaper-Sheet-Mirror_5
       rect:
         serializedVersion: 2
-        x: 206
+        x: 254
+        y: 8
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f806a912bd2be6fc0800000000000000
+      internalID: -3499663206188949361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HostileRunningReaper-Sheet-Mirror_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 8
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc28443ab6c30eb00800000000000000
+      internalID: 855750362198737615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HostileRunningReaper-Sheet-Mirror_7
+      rect:
+        serializedVersion: 2
+        x: 350
         y: 8
         width: 28
         height: 33
@@ -225,71 +288,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db643bffc02711aa0800000000000000
-      internalID: -6192042612502608195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 8
-        width: 29
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34c8a9310fb2c5c40800000000000000
-      internalID: 5502321154860944451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 8
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f637f362cd3bafc00800000000000000
-      internalID: 935257630748668783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HostileRunningReaper-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 8
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: add781fcb97a2e040800000000000000
-      internalID: 4675483650800254426
+      spriteID: 903b4b2531f05a380800000000000000
+      internalID: -8960739307917364471
       vertices: []
       indices: 
       edges: []

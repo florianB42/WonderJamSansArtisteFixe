@@ -643,7 +643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6160643673168282011, guid: 30d65b1d1086fa249b16559dde5c8d46, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6160643673168282012, guid: 30d65b1d1086fa249b16559dde5c8d46, type: 3}
       propertyPath: m_RootOrder
@@ -13840,6 +13840,7 @@ MonoBehaviour:
   timeSlider: {fileID: 31569300}
   resistanceSider: {fileID: 694154278}
   dialogManager: {fileID: 231560878}
+  dialogTurn: {fileID: 3402368699342845714}
 --- !u!4 &1183108200
 Transform:
   m_ObjectHideFlags: 0
