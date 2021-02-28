@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!StopPlayer)
         {
+            Vector3 oldChange = change;
             change = Vector3.zero;
             change.x = Input.GetAxisRaw("Horizontal");
             change.y = Input.GetAxisRaw("Vertical");
@@ -32,6 +34,11 @@ public class PlayerController : MonoBehaviour
             //Collider2D result = Physics2D.OverlapCircle(transform.position, 1.5f, 0, 21);
 
             UpdateAnimationAndMove();
+
+            if((oldChange.x != change.x) || (oldChange.y != change.y))
+            {
+                UpdateFlashlight();
+            }
         }
     }
 
@@ -69,6 +76,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("moving", false);
         }
+    }
+
+    void UpdateFlashlight()
+    {
+        GetComponentInChildren<FlashlightController>().RotateFlashlight(change.x, change.y);
     }
 
     public void stopPlayer()
