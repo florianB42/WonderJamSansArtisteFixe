@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         InteractionTimer = 0;
         chestOpened = 0;
 
-        timeSlider.SetMaxValue(10);
+        timeSlider.SetMaxValue(20);
 
 
         player = playerObject.GetComponent<Player>();
