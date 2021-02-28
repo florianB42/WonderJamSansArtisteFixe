@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public enum InteracibleItem : uint
 {
-    NOTHING, CHEST, DOOR, SELF
+    NOTHING, CHEST, DOOR, SELF, EXIT_DOOR
 }
 public class Interactable : MonoBehaviour
 {
