@@ -24,9 +24,9 @@ public class PopupSelectAction : MonoBehaviour
 
     public void showMenu(List<Item> listItem, Interactable interacibleItem)
     {
-        while (listItem.Count != listButton.Count)
+        while (listItem.Count + 1 != listButton.Count)
         {
-            if (listItem.Count > listButton.Count)
+            if (listItem.Count + 1 > listButton.Count)
             {
                 GameObject button = (GameObject)Instantiate(buttonAction);
                 button.transform.SetParent(panel.transform, false);
@@ -39,20 +39,15 @@ public class PopupSelectAction : MonoBehaviour
                 Destroy(button);
             }
         }
-        /*for (int i = 0; i < listItem.Count - 1; ++i)
-        {
-            GameObject button = (GameObject)Instantiate(buttonAction);
-            button.transform.SetParent(panel.transform, false);
-            listButton.Add(button);
-        }*/
 
-        for (int i = 0; i < listItem.Count && i < listButton.Count; ++i)
+        for (int i = 0; i < listItem.Count && i < listButton.Count - 1; ++i)
         {
             ButtonActionScript scriptBouton = listButton[i].GetComponent<ButtonActionScript>();
             scriptBouton.SetText(listItem[i].useText);
             scriptBouton.SetAction(listItem[i], interacibleItem, this);
         }
-
+        ButtonActionScript CancelBouton  = listButton[listButton.Count - 1].GetComponent<ButtonActionScript>();
+        CancelBouton.isCancelBouton(interacibleItem, this);
         gameObject.SetActive(true);
     }
 

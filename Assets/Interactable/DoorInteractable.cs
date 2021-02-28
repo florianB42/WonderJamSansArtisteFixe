@@ -20,6 +20,7 @@ public class DoorInteractable : Interactable
 
     public override void valideOpenning()
     {
+        Debug.Log("Valide Opening Door");
         gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
         gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
     } 

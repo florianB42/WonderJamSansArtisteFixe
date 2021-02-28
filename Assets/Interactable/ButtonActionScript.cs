@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class ButtonActionScript : MonoBehaviour
 {
     public Button button;
     // Start is called before the first frame update
+    public GameManager gameManager;
     public DoorInteractable dd;
     void Start()
     {
@@ -36,4 +38,12 @@ public class ButtonActionScript : MonoBehaviour
         Debug.Log("test");
     }
 
+    internal void isCancelBouton(Interactable interacibleItem, PopupSelectAction parent)
+    {
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(() => { interacibleItem.cancelInteract(); });
+        button.onClick.AddListener(() => { gameManager.LaunchTimerInteraction(null, null); });
+        button.onClick.AddListener(parent.hide);
+        button.GetComponentInChildren<Text>().text = "Annuler";
+    }
 }

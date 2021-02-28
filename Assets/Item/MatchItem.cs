@@ -10,7 +10,7 @@ public class MatchItem : Item
         name = ItemType.MATCH;
         durability = 4;
         UseTime = 2;
-        useText = "Défoncer au marteau";
+        useText = "Allumer une allumette";
         nameString = "une allumette";
     }
 

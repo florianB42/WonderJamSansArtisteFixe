@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public enum InteracibleItem : uint
 {
-    NOTHING, CHEST, DOOR
+    NOTHING, CHEST, DOOR, SELF
 }
 public class Interactable : MonoBehaviour
 {
@@ -31,5 +31,11 @@ public class Interactable : MonoBehaviour
 
     public virtual void valideOpenning()
     { 
+
+    }
+
+    public virtual void cancelInteract()
+    {
+        alreadyOpen = false;
     }
 }
