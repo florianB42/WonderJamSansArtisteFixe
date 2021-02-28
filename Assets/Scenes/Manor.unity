@@ -72775,10 +72775,26 @@ PrefabInstance:
       propertyPath: popupSelectAction
       value: 
       objectReference: {fileID: 1397058097}
+    - target: {fileID: 1364788212, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
+      propertyPath: isLightOn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364788212, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
+      propertyPath: flashlight
+      value: 
+      objectReference: {fileID: 1466904024}
     - target: {fileID: 2045892741, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 2130147058, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
+      propertyPath: isLightOn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130147058, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
+      propertyPath: flashlight
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1073522285161808036, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -73125,6 +73141,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2200000101810467936, guid: b5f531749611ea641bde0908699962e3, type: 3}
   m_PrefabInstance: {fileID: 1466064655}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1466904024 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1364788210, guid: 4920a039216566043b0c01f45fe51aed, type: 3}
+  m_PrefabInstance: {fileID: 1411694921}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1476325350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74938,6 +74965,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 882138896853431901, guid: a038bb513849abf4d9e21bf6aeffd80c, type: 3}
+      propertyPath: isLightOn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 882138896853431901, guid: a038bb513849abf4d9e21bf6aeffd80c, type: 3}
+      propertyPath: flashlight
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1679121782897365506, guid: a038bb513849abf4d9e21bf6aeffd80c, type: 3}
       propertyPath: m_RootOrder
       value: 5
