@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa75c920e24b754993140c7ee02d1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  popupInfo: {fileID: 0}
+  popupChoix: {fileID: 0}
 --- !u!58 &2200000101810467937
 CircleCollider2D:
   m_ObjectHideFlags: 0

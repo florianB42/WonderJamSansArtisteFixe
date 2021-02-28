@@ -48,8 +48,8 @@ public class GameManager : MonoBehaviour
         InteractTimerON = false;
         InteractionTimer = 0;
 
-        timeSlider.maxValue = 10;
-        resistanceSider.maxValue = 1;
+        timeSlider.SetMaxValue( 10);
+        resistanceSider.SetMaxValue(1);
 
         player = playerObject.GetComponent<Player>();
         playerController = playerObject.GetComponent<PlayerController>();
