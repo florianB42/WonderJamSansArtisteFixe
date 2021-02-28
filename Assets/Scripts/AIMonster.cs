@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class AIMonster : MonoBehaviour
 {
@@ -49,6 +50,15 @@ public class AIMonster : MonoBehaviour
         {
             animator.SetBool("PlayerInRange", true);
             //TODO appel de la fonction GameOver et mort du joueur
+            StartCoroutine(UserDie());
+            
+            
         }
+    }
+
+    IEnumerator UserDie()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
     }
 }
