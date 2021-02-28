@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     public SliderController timeSlider;
     public SliderController resistanceSider;
 
+    public PopupItemFund dialogManager;
+
     public static GameManager Instance
     {
         get { return _instance; }
@@ -32,6 +34,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        dialogManager.StartDialogue(new HammerItem(this)); 
+
         if (_instance != null && _instance != this)
         {
             Destroy(this.gameObject);
@@ -121,7 +125,11 @@ public class GameManager : MonoBehaviour
             case InteracibleItem.CHEST:
                 Item itemToAdd = RandomLoot();
                 if (itemToAdd != null)
+                {
                     player.inventaire.Add(itemToAdd);
+                    dialogManager.StartDialogue(itemToAdd);
+                }
+                    
                 //TODO afficher popup
                 break;
 
