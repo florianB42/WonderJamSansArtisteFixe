@@ -12,7 +12,7 @@ public class Item
     public ItemType name { get; protected set; }
 
     public int durability;
-
+    public string nameString { get; protected set; }
     public float UseTime { get; protected set; }
 
     public GameManager gameManager;

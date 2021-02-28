@@ -11,6 +11,7 @@ public class HammerItem : Item
         durability = 4;
         UseTime = 2;
         useText = "Défoncer au marteau";
+        nameString = "un Marteau";
     }
 
     public override void use(Interactable interacibleItem)

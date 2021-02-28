@@ -12,6 +12,7 @@ public class KeyItem : Item
         durability = 1;
         UseTime = 0.5f;
         useText = "Déverouiller";
+        nameString = "une Clé";
     }
 
     public override void use(Interactable interacibleItem)
