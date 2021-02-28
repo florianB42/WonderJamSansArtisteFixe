@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -27,6 +28,8 @@ public class GameManager : MonoBehaviour
     public PopupItemFund dialogManager;
     public DialogTurnController dialogTurn;
 
+
+    private GameObject InteractionBar;
     private int chestOpened;
     private bool playerGotKeyGold;
 
@@ -65,6 +68,8 @@ public class GameManager : MonoBehaviour
 
         dialogManager.hide();
         dialogTurn.hide();
+        InteractionBar = GameObject.Find("InteractionBar");
+       InteractionBar.SetActive(false);
     }
 
     // Update is called once per frame
@@ -91,7 +96,9 @@ public class GameManager : MonoBehaviour
             {
                 playerController.stopPlayer();
                 InteractionTimer -= Time.deltaTime;
-                if(InteractionTimer < 0)
+                SliderController slidercontroller = player.GetComponentInChildren<SliderController>();
+                slidercontroller.SetValue(InteractionTimer);
+                if (InteractionTimer < 0)
                 {
                     InteractTimerON = false;
                     ResultInteraction();
@@ -123,6 +130,13 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Choix : "+item.name);
         InteractionTimer = item.UseTime;
+
+        InteractionBar.SetActive(true);
+        SliderController slidercontroller = GameObject.Find("InteractionBar").GetComponent< SliderController>();
+        
+        slidercontroller.SetMaxValue(item.UseTime);
+        
+
         InteractWith = interact;
         InteractTimerON = true;
         itemInUse = item;
@@ -149,6 +163,7 @@ public class GameManager : MonoBehaviour
 
                 break;
         }
+        InteractionBar.SetActive(false);
     }
 
     private Item RandomLoot()
