@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public List<Item> inventaire;
+    public List<Item> inventaire = new List<Item>();
 
     public float resistance;
     public static float maxResistance;
     void Start()
     {
         maxResistance = 100f;
-        inventaire = new List<Item>();
         resistance = 100f;
     }
 
