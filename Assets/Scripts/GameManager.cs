@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         chestOpened = 0;
 
         timeSlider.SetMaxValue(10);
-        resistanceSider.SetMaxValue(1);
+
 
         player = playerObject.GetComponent<Player>();
         playerController = playerObject.GetComponent<PlayerController>();

@@ -7,11 +7,12 @@ public class Player : MonoBehaviour
     public List<Item> inventaire;
 
     public float resistance;
-
+    public static float maxResistance;
     void Start()
     {
+        maxResistance = 100f;
         inventaire = new List<Item>();
-        resistance = 0.5f;
+        resistance = 100f;
     }
 
     void Update()
