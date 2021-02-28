@@ -14,7 +14,8 @@ public class ChestInteractable : Interactable
     {
         interactableName = InteracibleItem.CHEST;
         timeToOpen = 3;
-        usableItem = new List<ItemType> { ItemType.KEY, ItemType.CROWBAR, ItemType.HAMMER };
+        usableItem = new List<ItemType> { ItemType.KEY, ItemType.CROWBAR};
+        
     }
 
     void Start()
@@ -31,28 +32,28 @@ public class ChestInteractable : Interactable
         
     }
 
+    public override void valideOpenning()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
+    }
+
     public override void interact(List<Item> inventaire)
     {
         if (!alreadyOpen)
         {
+            maskCanUseThis = (uint)ItemType.KEY + (uint)ItemType.CROWBAR;
             alreadyOpen = true;
             List<Item> usable = new List<Item>();
             foreach (Item item in inventaire)
             {
                 if (usableItem.Contains(item.name))
                 {
-                    if (item.name == ItemType.KEY && !hasKey)
+                    if ((maskCanUseThis & ((uint)item.name)) != 0)
                     {
                         usable.Add(item);
-                        hasKey = true;
+                        maskCanUseThis -= (uint)item.name;
                     }
-                        
-                    if (item.name == ItemType.HAMMER && !hasHammer)
-                    {
-                        usable.Add(item);
-                        hasHammer = true;
-                    }
-                                          
+
                 }
                     
             }
