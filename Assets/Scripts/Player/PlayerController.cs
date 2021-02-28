@@ -13,12 +13,14 @@ public class PlayerController : MonoBehaviour
     public Player player;
 
     private bool StopPlayer;
+    private bool canInteracte;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         StopPlayer = false;
+        canInteracte = true;
     }
 
     public void FixedUpdate()
@@ -43,18 +45,29 @@ public class PlayerController : MonoBehaviour
 
     public void Update()
     {
-        if (!StopPlayer && Input.GetKeyDown(KeyCode.E))
+        if (canInteracte)
         {
-            RaycastHit2D col = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(0, 0), 1, LayerMask.GetMask("Interactable"));
-            if (col.collider != null)
+            if (!StopPlayer && Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log("pas nul");
-                Debug.Log(col.collider);
-                col.collider.gameObject.GetComponent<Interactable>().interact(player.inventaire);
-
+                RaycastHit2D col = Physics2D.CircleCast(transform.position, 0.75f, new Vector2(0, 0), 1, LayerMask.GetMask("Interactable"));
+                if (col.collider != null)
+                {
+                    canInteracte = false;
+                    col.collider.gameObject.GetComponent<Interactable>().interact(player.inventaire);
+                }
             }
-            Debug.Log("v�rif");
+            else if (!StopPlayer && Input.GetKeyDown(KeyCode.Space))
+            {
+                canInteracte = false;
+                gameObject.GetComponent<PersoIteractable>().interact(player.inventaire);
+            }
         }
+    }
+
+    public void resetInteraction()
+    {
+        Debug.Log("Reset Interaction");
+        canInteracte = true;
     }
 
     void MoveCharacter()

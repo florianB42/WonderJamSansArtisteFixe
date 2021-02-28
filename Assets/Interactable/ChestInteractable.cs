@@ -6,9 +6,6 @@ public class ChestInteractable : Interactable
 {
     public GameObject popupChoix;
 
-    private bool hasKey;
-    private bool hasHammer;
-
     private void Awake()
     {
         interactableName = InteracibleItem.CHEST;
@@ -20,8 +17,6 @@ public class ChestInteractable : Interactable
     void Start()
     {
         popupChoix.SetActive(false);
-        hasHammer = false;
-        hasKey = false;
     }
 
     // Update is called once per frame

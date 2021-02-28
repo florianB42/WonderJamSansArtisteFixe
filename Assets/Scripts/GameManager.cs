@@ -90,6 +90,7 @@ public class GameManager : MonoBehaviour
                     InteractTimerON = false;
                     ResultInteraction();
                     playerController.restartPlayer();
+                    playerController.resetInteraction();
                 }
             }
 
@@ -110,12 +111,24 @@ public class GameManager : MonoBehaviour
 
     public void LaunchTimerInteraction(Item item, Interactable interact)
     {
+        if (item == null)
+        {
+            playerController.resetInteraction();
+            return;
+        }
+
         Debug.Log("Choix : "+item.name);
         InteractionTimer = item.UseTime;
         InteractWith = interact;
         InteractTimerON = true;
         itemInUse = item;
         UpdateInventory();
+        switch (item.name)
+        {
+            case ItemType.MATCH :
+
+                break;
+        }
     }
 
     private void ResultInteraction()
@@ -137,6 +150,10 @@ public class GameManager : MonoBehaviour
             case InteracibleItem.DOOR:
 
                 break;
+
+            case InteracibleItem.SELF:
+
+                break;
         }
     }
 
@@ -152,7 +169,7 @@ public class GameManager : MonoBehaviour
         //else if (random < 0.6)
         //new KeyItem(this);
         if(itemToAdd != null)
-            Debug.Log("J'ai trouv�" + itemToAdd.name);
+            Debug.Log("J'ai trouve" + itemToAdd.name);
 
         return itemToAdd;
     }
@@ -169,5 +186,7 @@ public class GameManager : MonoBehaviour
     {
         player.inventaire.Add(new KeyItem(this));
         player.inventaire.Add(new HammerItem(this));
+        player.inventaire.Add(new MatchItem(this));
+        player.inventaire.Add(new TeddyItem(this));
     }
 }
