@@ -25,7 +25,8 @@ public class GameManager : MonoBehaviour
     public SliderController resistanceSider;
 
     public PopupItemFund dialogManager;
-    
+    public DialogTurnController dialogTurn;
+
     private GameObject InteractionBar;
     private int chestOpened;
     private bool playerGotKeyGold;
@@ -67,6 +68,7 @@ public class GameManager : MonoBehaviour
         InteractionBar.SetActive(false);
 
         dialogManager.hide();
+        dialogTurn.hide();
     }
 
     // Update is called once per frame
@@ -110,6 +112,11 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            if (!dialogTurn.isActiveAndEnabled)
+            {
+                dialogTurn.StartDialogue("The Reaper is chasing you.");
+            }
+
             ReaperTimer -= Time.deltaTime;
             if (ReaperTimer < 0)
             {
@@ -118,6 +125,7 @@ public class GameManager : MonoBehaviour
                 Reaper.stopMonster();
                 PlayerTimer = Timer;
                 PlayerTurn = !PlayerTurn;
+                dialogTurn.StartDialogue("Run.");
             }
         }
     }
