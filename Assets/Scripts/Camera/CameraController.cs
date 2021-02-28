@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
     {
         haveBeentriggered = false;
         timerTrigger = 0;
-        newTrigger = 2;
+        newTrigger = 0;
     }
 
     private void Update()

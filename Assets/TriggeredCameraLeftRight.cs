@@ -6,6 +6,7 @@ public class TriggeredCameraLeftRight : MonoBehaviour
 {
     public Player player;
     public Camera cam;
+    private float distanceEnter;
 
     // Start is called before the first frame update
     void Start()
@@ -18,22 +19,31 @@ public class TriggeredCameraLeftRight : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
 
             var distance = player.transform.position.x - this.transform.position.x;
-            if (distance > 0)
+            if (distance < 0 && distanceEnter > 0)
             {
                 Debug.Log("Left");
                 cam.GetComponentInChildren<CameraController>().MoveLeft();
             }
-            else
+            else if (distance >= 0 && distanceEnter <= 0)
             {
                 Debug.Log("Right");
                 cam.GetComponentInChildren<CameraController>().MoveRight();
             }
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+
+            distanceEnter = player.transform.position.x - this.transform.position.x;
         }
     }
 }

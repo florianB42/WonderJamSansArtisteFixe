@@ -85,10 +85,9 @@ public class GameManager : MonoBehaviour
                 {
                     InteractTimerON = false;
                     ResultInteraction();
+                    playerController.restartPlayer();
                 }
             }
-            else
-                playerController.restartPlayer();
 
         }
         else

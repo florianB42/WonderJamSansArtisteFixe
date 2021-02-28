@@ -42,7 +42,7 @@ public class AIMonster : MonoBehaviour
         agent.destination = player.position;
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Collision detected");
         if (collision.gameObject.layer == 20)
