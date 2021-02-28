@@ -39,16 +39,12 @@ public class ChestInteractable : Interactable
             List<Item> usable = new List<Item>();
             foreach (Item item in inventaire)
             {
-                if (usableItem.Contains(item.name))
+              if ((maskCanUseThis & ((uint)item.name)) != 0)
                 {
-                    if ((maskCanUseThis & ((uint)item.name)) != 0)
-                    {
-                        usable.Add(item);
-                        maskCanUseThis -= (uint)item.name;
-                    }
-
+                    usable.Add(item);
+                    maskCanUseThis -= (uint)item.name;
                 }
-                    
+
             }
             popupChoix.GetComponent<PopupSelectAction>().showMenu(usable, this);
         }
