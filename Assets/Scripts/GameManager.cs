@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
         InteractTimerON = false;
         InteractionTimer = 0;
 
-        timeSlider.SetMaxValue(20);
+        timeSlider.SetMaxValue(Timer); ;
 
         player = playerObject.GetComponent<Player>();
         playerController = playerObject.GetComponent<PlayerController>();
@@ -93,7 +93,12 @@ public class GameManager : MonoBehaviour
             {
                 playerController.stopPlayer();
                 InteractionTimer -= Time.deltaTime;
-                if(InteractionTimer < 0)
+
+                SliderController slidercontroller = GameObject.Find("InteractionBar").GetComponent<SliderController>();
+
+                slidercontroller.SetValue(InteractionTimer);
+
+                if (InteractionTimer < 0)
                 {
                     InteractTimerON = false;
                     ResultInteraction();
