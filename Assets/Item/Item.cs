@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum ItemType
 {
-    KEY = 1, GOLDKEY = 2, CROWBAR = 4, HAMMER = 8
+    KEY = 1, GOLDKEY = 2, CROWBAR = 4, HAMMER = 8, HEAD = 16, TEDDY = 32, MATCH = 64, SPIDER = 128
 }
 
 public class Item
@@ -12,7 +12,7 @@ public class Item
     public ItemType name { get; protected set; }
 
     public int durability;
-
+    public string nameString { get; protected set; }
     public float UseTime { get; protected set; }
 
     public GameManager gameManager;

@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyItem : Item
+public class MatchItem : Item
 {
-
-    public KeyItem(GameManager gameManager)
+    public MatchItem(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        name = ItemType.KEY;
-        durability = 1;
-        UseTime = 0.5f;
-        useText = "Déverouiller";
-        nameString = "une Clé";
+        name = ItemType.MATCH;
+        durability = 4;
+        UseTime = 2;
+        useText = "Défoncer au marteau";
+        nameString = "une allumette";
     }
 
     public override void use(Interactable interacibleItem)

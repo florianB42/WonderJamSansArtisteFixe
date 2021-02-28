@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyItem : Item
+public class HeadItem : Item
 {
 
-    public KeyItem(GameManager gameManager)
+    public HeadItem(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        name = ItemType.KEY;
-        durability = 1;
-        UseTime = 0.5f;
-        useText = "Déverouiller";
-        nameString = "une Clé";
+        name = ItemType.HEAD;
+        durability = 4;
+        UseTime = 2;
+        useText = "Défoncer au marteau";
+        nameString = "une Tête réduite";
     }
 
     public override void use(Interactable interacibleItem)

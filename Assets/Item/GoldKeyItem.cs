@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyItem : Item
+public class GoldKeyItem : Item
 {
-
-    public KeyItem(GameManager gameManager)
+    public GoldKeyItem(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        name = ItemType.KEY;
+        name = ItemType.GOLDKEY;
         durability = 1;
-        UseTime = 0.5f;
-        useText = "Déverouiller";
-        nameString = "une Clé";
+        UseTime = 1;
+        useText = "Ouvrir";
+        nameString = "une Clé en Or";
     }
 
     public override void use(Interactable interacibleItem)

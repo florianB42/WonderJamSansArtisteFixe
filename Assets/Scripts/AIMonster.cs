@@ -10,6 +10,8 @@ public class AIMonster : MonoBehaviour
     private NavMeshAgent agent;
     private Animator animator;
     private bool StopMonster;
+    private int turns = 0;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -36,6 +38,12 @@ public class AIMonster : MonoBehaviour
     public void restartMonster()
     {
         StopMonster = false;
+        turns++;
+        if (turns >= 5)
+        {
+            GetComponent<NavMeshAgent>().speed *= (float)1.1;
+            Debug.Log(GetComponent<NavMeshAgent>().speed);
+        }
     }
 
     public void EnnemyFollowing()

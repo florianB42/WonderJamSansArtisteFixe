@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     public SliderController timeSlider;
     public SliderController resistanceSider;
 
+    public PopupItemFund dialogManager;
+
     public static GameManager Instance
     {
         get { return _instance; }
@@ -40,7 +42,7 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
-        Timer = 10;
+        Timer = 20;
         PlayerTimer = Timer;
         ReaperTimer = 0;
         PlayerTurn = true;
@@ -50,10 +52,14 @@ public class GameManager : MonoBehaviour
 
         timeSlider.SetMaxValue(10);
 
+        resistanceSider.SetMaxValue(1);
+
         player = playerObject.GetComponent<Player>();
         playerController = playerObject.GetComponent<PlayerController>();
 
         addItemInPlayerInventory();
+
+        dialogManager.hide();
     }
 
     // Update is called once per frame
@@ -115,12 +121,17 @@ public class GameManager : MonoBehaviour
 
     private void ResultInteraction()
     {
+        InteractWith.valideOpenning();
         switch (InteractWith.interactableName)
         {
             case InteracibleItem.CHEST:
                 Item itemToAdd = RandomLoot();
                 if (itemToAdd != null)
+                {
                     player.inventaire.Add(itemToAdd);
+                    dialogManager.StartDialogue(itemToAdd);
+                }
+                    
                 //TODO afficher popup
                 break;
 
@@ -135,7 +146,7 @@ public class GameManager : MonoBehaviour
         float random = UnityEngine.Random.Range(0f, 1f);
         Item itemToAdd = null;
 
-        if (random < 0.2)
+        if (random < 1.2)
             itemToAdd = new KeyItem(this);
         else if (random < 0.4)
             itemToAdd = new HammerItem(this);
@@ -144,7 +155,7 @@ public class GameManager : MonoBehaviour
         if(itemToAdd != null)
             Debug.Log("J'ai trouv�" + itemToAdd.name);
 
-        return null;
+        return itemToAdd;
     }
 
     private void UpdateInventory()
