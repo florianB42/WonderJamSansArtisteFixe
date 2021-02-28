@@ -74725,6 +74725,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1155741527}
     m_Modifications:
+    - target: {fileID: 3509640755022226892, guid: 52955215092ecc14a9fdbec1747f9174, type: 3}
+      propertyPath: popupSelectAction
+      value: 
+      objectReference: {fileID: 1397058097}
     - target: {fileID: 3722208512435155328, guid: 52955215092ecc14a9fdbec1747f9174, type: 3}
       propertyPath: m_Name
       value: Exit_Door
