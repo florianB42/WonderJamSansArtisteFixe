@@ -12,10 +12,11 @@ public class GameManager : MonoBehaviour
     private Player player;
     public AIMonster Reaper;
     private static GameManager _instance;
-
+    
+    private static float TimerReaper;
     private float PlayerTimer;
     private float ReaperTimer;
-    private static float Timer;
+    private static float TimerPlayer;
     private bool PlayerTurn;
     public int chestOpened;
     private bool playerGotKeyGold;
@@ -35,6 +36,11 @@ public class GameManager : MonoBehaviour
     public Light2D globalLight;
     public bool lightingMatch;
 
+    private GameManager()
+    {
+
+    }
+
     public static GameManager Instance
     {
         get { return _instance; }
@@ -51,8 +57,9 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
-        Timer = 30; ///////Constante
-        PlayerTimer = Timer;
+        TimerPlayer = 30; ///////Constante
+        TimerReaper = 10;
+        PlayerTimer = TimerPlayer;
         ReaperTimer = 0;
         PlayerTurn = true;
         chestOpened = 0;
@@ -63,7 +70,7 @@ public class GameManager : MonoBehaviour
 
         lightingMatch = false;
 
-        timeSlider.SetMaxValue(Timer);
+        timeSlider.SetMaxValue(TimerPlayer);
 
         player = playerObject.GetComponent<Player>();
         playerController = playerObject.GetComponent<PlayerController>();
@@ -92,7 +99,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Tour du joueur fini");
                 playerController.stopPlayer();
                 Reaper.restartMonster();
-                ReaperTimer = 5; /////////////////////////////////////TIMER
+                ReaperTimer = TimerReaper; 
                 PlayerTurn = !PlayerTurn;
             }
 
@@ -130,13 +137,13 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Tour du Reaper fini");
                 playerController.restartPlayer();
                 Reaper.stopMonster();
-                PlayerTimer = Timer;
+                PlayerTimer = TimerPlayer;
                 PlayerTurn = !PlayerTurn;
                 dialogTurn.StartDialogue("Run.");
             }
         }
 
-        if(lightingMatch && globalLight.intensity < 1f)
+        if(lightingMatch && globalLight.intensity < 0.5f)
         {
             globalLight.intensity += 0.01f;
         }
@@ -278,4 +285,12 @@ public class GameManager : MonoBehaviour
         player.inventaire.Add(new TeddyItem(this));
         player.inventaire.Add(new HandItem(this));
     }
+
+    public void Pause(bool paused)
+    {
+
+
+    }
+
+
 }

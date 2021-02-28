@@ -28,20 +28,20 @@ public class AIMonster : MonoBehaviour
         if (!StopMonster)
         {
             agent.destination = player.position;
-            int oldX = X;
-            float diffX = transform.position.x - player.position.x;
-            X = (diffX > 0 ? -1 : (diffX < 0 ? 1 : 0));
-
-            UpdateAnimation();
+            
         }
+        int oldX = X;
+        float diffX = transform.position.x - player.position.x;
+        X = (diffX > 0 ? -1 : (diffX < 0 ? 1 : 0));
+
+        UpdateAnimation();
     }
 
     void UpdateAnimation()
     {
-        if (X != 0)
-        {
-            animator.SetFloat("moveX", X);
-        }
+     
+        animator.SetFloat("moveX", X);
+        
     }
 
     public void stopMonster()
