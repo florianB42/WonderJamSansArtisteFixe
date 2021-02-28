@@ -26,6 +26,9 @@ public class GameManager : MonoBehaviour
 
     public PopupItemFund dialogManager;
 
+    private int chestOpened;
+    private bool playerGotKeyGold;
+
     public static GameManager Instance
     {
         get { return _instance; }
@@ -49,6 +52,7 @@ public class GameManager : MonoBehaviour
 
         InteractTimerON = false;
         InteractionTimer = 0;
+        chestOpened = 0;
 
         timeSlider.SetMaxValue(10);
         resistanceSider.SetMaxValue(1);
@@ -130,8 +134,8 @@ public class GameManager : MonoBehaviour
                     player.inventaire.Add(itemToAdd);
                     dialogManager.StartDialogue(itemToAdd);
                 }
-                    
-                //TODO afficher popup
+
+                chestOpened++;
                 break;
 
             case InteracibleItem.DOOR:
@@ -144,15 +148,44 @@ public class GameManager : MonoBehaviour
     {
         float random = UnityEngine.Random.Range(0f, 1f);
         Item itemToAdd = null;
+        int multiplicateur = 1;
 
-        if (random < 1.2)
-            itemToAdd = new KeyItem(this);
-        else if (random < 0.4)
+        if (chestOpened > 5)
+            multiplicateur = 2;
+        if (chestOpened > 10)
+            multiplicateur = 6;
+        if (chestOpened > 15)
+            multiplicateur = 10;
+        if (chestOpened > 20)
+            multiplicateur = 40;
+        if (chestOpened > 20)
+            multiplicateur = 50;
+
+        if (random < (0.02 * multiplicateur) && !playerGotKeyGold)
+        {
+            itemToAdd = new GoldKeyItem(this);
+            playerGotKeyGold = true;
+        }           
+        else if (random < 0.2)
             itemToAdd = new HammerItem(this);
+        else if (random < 0.3)
+            itemToAdd = new CrowbarItem(this);
+        else if (random < 0.4)
+            itemToAdd = new TeddyItem(this);
+        else if (random < 0.5)
+            itemToAdd = new MatchItem(this);
+        else if (random < 0.6)
+            itemToAdd = new SpiderItem(this);
+        else if (random < 0.7)
+            itemToAdd = new HeadItem(this);
+        else if (random <= 1)
+            itemToAdd = new KeyItem(this);
         //else if (random < 0.6)
         //new KeyItem(this);
-        if(itemToAdd != null)
-            Debug.Log("J'ai trouv�" + itemToAdd.name);
+        if (itemToAdd != null)
+            Debug.Log("J'ai trouve" + itemToAdd.name);
+
+
 
         return itemToAdd;
     }
