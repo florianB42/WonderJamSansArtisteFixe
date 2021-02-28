@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HammerItem : Item
+public class MatchItem : Item
 {
-    public HammerItem(GameManager gameManager)
+    public MatchItem(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        name = ItemType.HAMMER;
+        name = ItemType.MATCH;
         durability = 4;
         UseTime = 2;
-        useText = "Défoncer";
-        nameString = "un Marteau";
+        useText = "Défoncer au marteau";
+        nameString = "une allumette";
     }
 
     public override void use(Interactable interacibleItem)
