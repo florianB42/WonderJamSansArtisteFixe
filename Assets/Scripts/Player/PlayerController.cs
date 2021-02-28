@@ -49,6 +49,15 @@ public class PlayerController : MonoBehaviour
             }
             Debug.Log("v�rif");
         }
+
+        if(Input.GetKeyDown(KeyCode.O))
+        {
+            player.GetComponent<ResistanceComponent>().PlusResistance(10);
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            player.GetComponent<ResistanceComponent>().MinusResistance(10);
+        }
     }
 
     void MoveCharacter()
